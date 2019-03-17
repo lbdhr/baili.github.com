@@ -1,0 +1,29 @@
+body 
+{
+	background:#FFF;
+	font-family:"微软雅黑";
+	font-size:12px;
+	text-align:left;
+}
+.hanzi
+{
+	background:#FFF;
+	font-family:"微软雅黑";
+	font-size:12px;
+}
+a
+{
+	font-family:"微软雅黑";
+	font-size:12px;
+	text-align:center;
+	padding-top:10px;
+	color:Black;
+}
+.editdel
+{
+    width:140px;
+ }
+ #GridViewShow
+ {
+    margin-left:30px;
+ }

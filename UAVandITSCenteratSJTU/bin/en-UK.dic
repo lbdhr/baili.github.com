@@ -1,0 +1,3850 @@
+﻿[Copyright]
+This dictionary was initially based on a subset of the
+original English wordlist created by Kevin Atkinson for
+Pspell and  Aspell and thus is covered by his original
+LGPL licence.
+
+[Try]
+esiaénrtolcdugmphbyfvkw-'.zqjxSNRTLCGDMPHBEAUYOFIVKWöâôZQJXÅçèîêàïüäñ
+
+[Replace]
+f ph
+ph f
+f gh
+f ugh
+gh f
+ff ugh
+uf ough
+uff ough
+k ch
+ch k
+dg j
+j dg
+w ugh
+ness ity
+leness ility
+ness ivity
+eness ity
+og ogue
+ck qu
+ck que
+eg e.g.
+ie i.e.
+t ght
+ght t
+
+[Prefix]
+A Y 2
+A 0 re [^e]
+A 0 re- e
+a Y 1
+a 0 mis .
+I Y 4
+I 0 il l
+I 0 ir r
+I 0 im [bmp]
+I 0 in [^blmpr]
+c Y 1
+c 0 over .
+U Y 1
+U 0 un .
+C Y 2
+C 0 de [^e]
+C 0 de- e
+E Y 1
+E 0 dis .
+F Y 5
+F 0 com [bmp]
+F 0 co [aeiouh]
+F 0 cor r
+F 0 col l
+F 0 con [^abehilmopru].
+K Y 1
+K 0 pre .
+e Y 1
+e 0 out .
+f Y 2
+f 0 under [^r]
+f 0 under- r
+O Y 1
+O 0 non- .
+4 Y 1
+4 0 trans .
+
+[Suffix]
+V Y 15
+V 0 tive [aio]
+V b ptive b
+V d sive d
+V be ptive be
+V e tive ce
+V de sive de
+V ke cative ke
+V e ptive me
+V e ive [st]e
+V e ative [^bcdkmst]e
+V 0 lative [aeiou]l
+V 0 ative [^aeiou]l
+V 0 ive [st]
+V y icative y
+V 0 ative [^abdeilosty]
+v Y 15
+v 0 tively [aio]
+v b ptively b
+v d sively d
+v be ptively be
+v e tively ce
+v de sively de
+v ke catively ke
+v e ptively me
+v e ively [st]e
+v e atively [^bcdkmst]e
+v 0 latively [aeiou]l
+v 0 atively [^aeiou]l
+v 0 ively [st]
+v y icatively y
+v 0 atively [^abdeilosty]
+u Y 15
+u 0 tiveness [aio]
+u b ptiveness b
+u d siveness d
+u be ptiveness be
+u e tiveness ce
+u de siveness de
+u ke cativeness ke
+u e ptiveness me
+u e iveness [st]e
+u e ativeness [^bcdkmst]e
+u 0 lativeness [aeiou]l
+u 0 ativeness [^aeiou]l
+u 0 iveness [st]
+u y icativeness y
+u 0 ativeness [^abdeilosty]
+N Y 26
+N b ption b
+N d sion d
+N be ption be
+N e tion ce
+N de sion de
+N ke cation ke
+N e ption ume
+N e mation [^u]me
+N e ion [^o]se
+N e ition ose
+N e ation [iou]te
+N e ion [^iou]te
+N e ation [^bcdkmst]e
+N el ulsion el
+N 0 lation [aiou]l
+N 0 ation [^aeiou]l
+N 0 mation [aeiou]m
+N 0 ation [^aeiou]m
+N er ration er
+N 0 ation [^e]r
+N 0 ion [sx]
+N t ssion mit
+N 0 ion [^m]it
+N 0 ation [^i]t
+N y ication y
+N 0 ation [^bdelmrstxy]
+n Y 28
+n 0 tion a
+n e tion ce
+n ke cation ke
+n e ation [iou]te
+n e ion [^iou]te
+n e ation [^ckt]e
+n el ulsion el
+n 0 lation [aiou]l
+n 0 ation [^aeiou]l
+n er ration er
+n 0 ation [^e]r
+n y ation py
+n y ication [^p]y
+n 0 ation [^aelry]
+n 0 tions a
+n e tions ce
+n ke cations ke
+n e ations [iou]te
+n e ions [^iou]te
+n e ations [^ckt]e
+n el ulsions el
+n 0 lations [aiou]l
+n 0 ations [^aeiou]l
+n er rations er
+n 0 ations [^e]r
+n y ations py
+n y ications [^p]y
+n 0 ations [^aelry]
+X Y 26
+X b ptions b
+X d sions d
+X be ptions be
+X e tions ce
+X ke cations ke
+X de sions de
+X e ptions ume
+X e mations [^u]me
+X e ions [^o]se
+X e itions ose
+X e ations [iou]te
+X e ions [^iou]te
+X e ations [^bcdkmst]e
+X el ulsions el
+X 0 lations [aiou]l
+X 0 ations [^aeiou]l
+X 0 mations [aeiou]m
+X 0 ations [^aeiou]m
+X er rations er
+X 0 ations [^e]r
+X 0 ions [sx]
+X t ssions mit
+X 0 ions [^m]it
+X 0 ations [^i]t
+X y ications y
+X 0 ations [^bdelmrstxy]
+x Y 40
+x b ptional b
+x d sional d
+x be ptional be
+x e tional ce
+x ke cational ke
+x de sional de
+x e ional [^o]se
+x e itional ose
+x e ional te
+x e ational [^bcdkst]e
+x el ulsional el
+x 0 lational [aiou]l
+x 0 ational [^aeiou]l
+x er rational er
+x 0 ational [^e]r
+x 0 ional [sx]
+x 0 ional [^n]t
+x 0 ational nt
+x y icational y
+x 0 ational [^bdelrstxy]
+x b ptionally b
+x d sionally d
+x be ptionally be
+x e tionally ce
+x ke cationally ke
+x de sionally de
+x e ionally [^o]se
+x e itionally ose
+x e ionally te
+x e ationally [^bcdkst]e
+x el ulsionally el
+x 0 lationally [aiou]l
+x 0 ationally [^aeiou]l
+x er rationally er
+x 0 ationally [^e]r
+x 0 ionally [sx]
+x 0 ionally [^n]t
+x 0 ationally nt
+x y icationally y
+x 0 ationally [^bdelrstxy]
+H N 13
+H y ieth y
+H ree ird ree
+H ve fth ve
+H e th [^ev]e
+H 0 h t
+H 0 th [^ety]
+H y ieths y
+H ree irds ree
+H ve fths ve
+H e ths [^ev]e
+H 0 hs t
+H 0 ths [^ety]
+H 0 fold .
+Y Y 9
+Y 0 ally ic
+Y 0 ly [^i]c
+Y e y [^aeiou]le
+Y 0 ly [aeiou]le
+Y 0 ly [^l]e
+Y 0 y [^aeiou]l
+Y y ily [^aeiou]y
+Y 0 ly [aeiou][ly]
+Y 0 ly [^cely]
+G Y 24
+G e ing [^eioy]e
+G 0 ing [eoy]e
+G ie ying ie
+G 0 bing [^aeio][aeiou]b
+G 0 king [^aeio][aeiou]c
+G 0 ding [^aeio][aeiou]d
+G 0 fing [^aeio][aeiou]f
+G 0 ging [^aeio][aeiou]g
+G 0 king [^aeio][aeiou]k
+G 0 ling [^aeio][eiou]l
+G 0 ing [aeio][eiou]l
+G 0 ling [^aeo]al
+G 0 ing [aeo]al
+G 0 ming [^aeio][aeiou]m
+G 0 ning [^aeio][aeiou]n
+G 0 ping [^aeio][aeiou]p
+G 0 ring [^aeio][aeiou]r
+G 0 sing [^aeio][aeiou]s
+G 0 ting [^aeio][aeiou]t
+G 0 ving [^aeio][aeiou]v
+G 0 zing [^aeio][aeiou]z
+G 0 ing [aeio][aeiou][bcdfgkmnprstvz]
+G 0 ing [^aeiou][bcdfgklmnprstvz]
+G 0 ing [^ebcdfgklmnprstvz]
+J Y 25
+J e ings [^eioy]e
+J 0 ings [eoy]e
+J ie yings ie
+J 0 bings [^aeio][aeiou]b
+J 0 king [^aeio][aeiou]c
+J 0 dings [^aeio][aeiou]d
+J 0 fings [^aeio][aeiou]f
+J 0 gings [^aeio][aeiou]g
+J 0 kings [^aeio][aeiou]k
+J 0 lings [^aeio][eiou]l
+J 0 ings [aeio][eiou]l
+J 0 lings [^aeo]al
+J 0 ings [aeo]al
+J 0 mings [^aeio][aeiou]m
+J 0 nings [^aeio][aiou]n
+J 0 pings [^aeio][aeiou]p
+J 0 rings [^aeio][aiou]r
+J 0 sings [^aeio][aeiou]s
+J 0 tings [^aeio][aiou]t
+J 0 vings [^aeio][aeiou]v
+J 0 zings [^aeio][aeiou]z
+J 0 ings [^aeio]e[nrt]
+J 0 ings [aeio][aeiou][bcdfgkmnprstvz]
+J 0 ings [^aeiou][bcdfgklmnprstvz]
+J 0 ings [^ebcdfgklmnprstvz]
+k Y 8
+k e ingly [^eioy]e
+k 0 ingly [eoy]e
+k ie yingly ie
+k 0 kingly [^aeio][aeiou]c
+k 0 lingly [^aeio][aeiou]l
+k 0 ingly [aeio][aeiou][cl]
+k 0 ingly [^aeiou][cl]
+k 0 ingly [^ecl]
+D Y 25
+D 0 d [^e]e
+D e d ee
+D 0 bed [^aeio][aeiou]b
+D 0 ked [^aeio][aeiou]c
+D 0 ded [^aeio][aeiou]d
+D 0 fed [^aeio][aeiou]f
+D 0 ged [^aeio][aeiou]g
+D 0 ked [^aeio][aeiou]k
+D 0 led [^aeio][eiou]l
+D 0 ed [aeio][eiou]l
+D 0 led [^aeo]al
+D 0 ed [aeo]al
+D 0 med [^aeio][aeiou]m
+D 0 ned [^aeio][aeiou]n
+D 0 ped [^aeio][aeiou]p
+D 0 red [^aeio][aeiou]r
+D 0 sed [^aeio][aeiou]s
+D 0 ted [^aeio][aeiou]t
+D 0 ved [^aeio][aeiou]v
+D 0 zed [^aeio][aeiou]z
+D y ied [^aeiou]y
+D 0 ed [aeiou]y
+D 0 ed [aeio][aeiou][bcdfgkmnprstvz]
+D 0 ed [^aeiou][bcdfgklmnprstvz]
+D 0 ed [^ebcdfgklmnprstvyz]
+d Y 16
+d 0 d e
+d 0 ked [^aeio][aeiou]c
+d 0 led [^aeio][aeiou]l
+d y ied [^aeiou]y
+d 0 ed [aeiou]y
+d 0 ed [aeio][aeiou][cl]
+d 0 ed [^aeiou][cl]
+d 0 ed [^ecly]
+d e ing [^eioy]e
+d 0 ing [eoy]e
+d ie ying ie
+d 0 king [^aeio][aeiou]c
+d 0 ling [^aeio][aeiou]l
+d 0 ing [aeio][aeiou][cl]
+d 0 ing [^aeiou][cl]
+d 0 ing [^ecl]
+h Y 22
+h 0 dly e
+h 0 bedly [^aeio][aeiou]b
+h 0 kedly [^aeio][aeiou]c
+h 0 dedly [^aeio][aeiou]d
+h 0 fedly [^aeio][aeiou]f
+h 0 gedly [^aeio][aeiou]g
+h 0 kedly [^aeio][aeiou]k
+h 0 ledly [^aeio][aeiou]l
+h 0 medly [^aeio][aeiou]m
+h 0 nedly [^aeio][aiou]n
+h 0 pedly [^aeio][aeiou]p
+h 0 redly [^aeio][aiou]r
+h 0 sedly [^aeio][aeiou]s
+h 0 tedly [^aeio][aiou]t
+h 0 vedly [^aeio][aeiou]v
+h 0 zedly [^aeio][aeiou]z
+h 0 edly [^aeio]e[nrt]
+h y iedly [^aeiou]y
+h 0 edly [aeiou]y
+h 0 edly [aeio][aeiou][bcdfgklmnprstvz]
+h 0 edly [^aeiou][bcdfgklmnprstvz]
+h 0 edly [^ebcdfgklmnprstvyz]
+i Y 22
+i 0 dness e
+i 0 bedness [^aeio][aeiou]b
+i 0 kedness [^aeio][aeiou]c
+i 0 dedness [^aeio][aeiou]d
+i 0 fedness [^aeio][aeiou]f
+i 0 gedness [^aeio][aeiou]g
+i 0 kedness [^aeio][aeiou]k
+i 0 ledness [^aeio][aeiou]l
+i 0 medness [^aeio][aeiou]m
+i 0 nedness [^aeio][aiou]n
+i 0 pedness [^aeio][aeiou]p
+i 0 redness [^aeio][aiou]r
+i 0 sedness [^aeio][aeiou]s
+i 0 tedness [^aeio][aiou]t
+i 0 vedness [^aeio][aeiou]v
+i 0 zedness [^aeio][aeiou]z
+i 0 edness [^aeio]e[nrt]
+i y iedness [^aeiou]y
+i 0 edness [aeiou]y
+i 0 edness [aeio][aeiou][bcdfgklmnprstvz]
+i 0 edness [^aeiou][bcdfgklmnprstvz]
+i 0 edness [^ebcdfgklmnprstvyz]
+T Y 42
+T 0 r e
+T 0 st e
+T 0 ber [^aeio][aeiou]b
+T 0 best [^aeio][aeiou]b
+T 0 ker [^aeio][aeiou]c
+T 0 kest [^aeio][aeiou]c
+T 0 der [^aeio][aeiou]d
+T 0 dest [^aeio][aeiou]d
+T 0 fer [^aeio][aeiou]f
+T 0 fest [^aeio][aeiou]f
+T 0 ger [^aeio][aeiou]g
+T 0 gest [^aeio][aeiou]g
+T 0 ker [^aeio][aeiou]k
+T 0 kest [^aeio][aeiou]k
+T 0 ler [^aeio][aeiou]l
+T 0 lest [^aeio][aeiou]l
+T 0 mer [^aeio][aeiou]m
+T 0 mest [^aeio][aeiou]m
+T 0 ner [^aeio][aeiou]n
+T 0 nest [^aeio][aeiou]n
+T 0 per [^aeio][aeiou]p
+T 0 pest [^aeio][aeiou]p
+T 0 rer [^aeio][aeiou]r
+T 0 rest [^aeio][aeiou]r
+T 0 ser [^aeio][aeiou]s
+T 0 sest [^aeio][aeiou]s
+T 0 ter [^aeio][aeiou]t
+T 0 test [^aeio][aeiou]t
+T 0 ver [^aeio][aeiou]v
+T 0 vest [^aeio][aeiou]v
+T 0 zer [^aeio][aeiou]z
+T 0 zest [^aeio][aeiou]z
+T y ier [^aeiou]y
+T y iest [^aeiou]y
+T 0 er [aeiou]y
+T 0 est [aeiou]y
+T 0 er [aeio][aeiou][bcdfgklmnprstvz]
+T 0 er [^aeiou][bcdfgklmnprstvz]
+T 0 er [^ebcdfgklmnprstvyz]
+T 0 est [aeio][aeiou][bcdfgklmnprstvz]
+T 0 est [^aeiou][bcdfgklmnprstvz]
+T 0 est [^ebcdfgklmnprstvyz]
+R Y 72
+R 0 r e
+R 0 rs e
+R 0 ber [^aeio][aeiou]b
+R 0 bers [^aeio][aeiou]b
+R 0 ker [^aeio][aeiou]c
+R 0 kers [^aeio][aeiou]c
+R 0 der [^aeio][aeiou]d
+R 0 ders [^aeio][aeiou]d
+R 0 fer [^aeio][aeiou]f
+R 0 fers [^aeio][aeiou]f
+R 0 ger [^aeio][aeiou]g
+R 0 gers [^aeio][aeiou]g
+R 0 ker [^aeio][aeiou]k
+R 0 kers [^aeio][aeiou]k
+R 0 ler [^aeio][eiou]l
+R 0 er [aeio][eiou]l
+R 0 ler [^aeo]al
+R 0 er [aeo]al
+R 0 lers [^aeio][eiou]l
+R 0 ers [aeio][eiou]l
+R 0 lers [^aeo]al
+R 0 ers [aeo]al
+R 0 mer [^aeio][aeiou]m
+R 0 mers [^aeio][aeiou]m
+R 0 ner [^aeio][aeiou]n
+R 0 ners [^aeio][aeiou]n
+R 0 per [^aeio][aeiou]p
+R 0 pers [^aeio][aeiou]p
+R 0 rer [^aeio][aeiou]r
+R 0 rers [^aeio][aeiou]r
+R 0 ser [^aeio][aeiou]s
+R 0 sers [^aeio][aeiou]s
+R 0 ter [^aeio][aeiou]t
+R 0 ters [^aeio][aeiou]t
+R 0 ver [^aeio][aeiou]v
+R 0 vers [^aeio][aeiou]v
+R 0 zer [^aeio][aeiou]z
+R 0 zers [^aeio][aeiou]z
+R y ier [^aeiou]y
+R y iers [^aeiou]y
+R 0 er [aeiou]y
+R 0 ers [aeiou]y
+R 0 er [aeio][aeiou][bcdfgkmnprstvz]
+R 0 ers [aeio][aeiou][bcdfgkmnprstvz]
+R 0 er [^aeiou][bcdfgklmnprstvz]
+R 0 ers [^aeiou][bcdfgklmnprstvz]
+R 0 er [^ebcdfgklmnprstvyz]
+R 0 ers [^ebcdfgklmnprstvyz]
+R 0 r's e
+R 0 ber's [^aeio][aeiou]b
+R 0 ker's [^aeio][aeiou]c
+R 0 der's [^aeio][aeiou]d
+R 0 fer's [^aeio][aeiou]f
+R 0 ger's [^aeio][aeiou]g
+R 0 ker's [^aeio][aeiou]k
+R 0 ler's [^aeio][eiou]l
+R 0 er's [aeio][eiou]l
+R 0 ler's [^aeo]al
+R 0 er's [aeo]al
+R 0 mer's [^aeio][aeiou]m
+R 0 ner's [^aeio][aeiou]n
+R 0 per's [^aeio][aeiou]p
+R 0 rer's [^aeio][aeiou]r
+R 0 ser's [^aeio][aeiou]s
+R 0 ter's [^aeio][aeiou]t
+R 0 ver's [^aeio][aeiou]v
+R 0 zer's [^aeio][aeiou]z
+R y ier's [^aeiou]y
+R 0 er's [aeiou]y
+R 0 er's [aeio][aeiou][bcdfgkmnprstvz]
+R 0 er's [^aeiou][bcdfgklmnprstvz]
+R 0 er's [^ebcdfgklmnprstvyz]
+r Y 24
+r 0 r e
+r 0 ler [^aeio][aeiou]l
+r 0 ker [^aeio][aeiou]c
+r y ier [^aeiou]y
+r 0 er [aeiou]y
+r 0 er [aeio][aeiou][cl]
+r 0 er [^aeiou][cl]
+r 0 er [^ecly]
+r 0 rs e
+r 0 lers [^aeio][aeiou]l
+r 0 kers [^aeio][aeiou]c
+r y iers [^aeiou]y
+r 0 ers [aeiou]y
+r 0 ers [aeio][aeiou][cl]
+r 0 ers [^aeiou][cl]
+r 0 ers [^ecly]
+r 0 r's e
+r 0 ler's [^aeio][aeiou]l
+r 0 ker's [^aeio][aeiou]c
+r y ier's [^aeiou]y
+r 0 er's [aeiou]y
+r 0 er's [aeio][aeiou][cl]
+r 0 er's [^aeiou][cl]
+r 0 er's [^ecly]
+S Y 9
+S y ies [^aeiou]y
+S 0 s [aeiou]y
+S 0 es [sxz]
+S 0 es [cs]h
+S 0 s [^cs]h
+S 0 s [ae]u
+S 0 x [ae]u
+S 0 s [^ae]u
+S 0 s [^hsuxyz]
+P Y 6
+P y iness [^aeiou]y
+P 0 ness [aeiou]y
+P 0 ness [^y]
+P y iness's [^aeiou]y
+P 0 ness's [aeiou]y
+P 0 ness's [^y]
+m Y 20
+m 0 sman [bdknmt]
+m 0 sman [aeiou][bdklmnt]e
+m 0 man [^aeiou][bdklmnt]e
+m 0 man [^bdklmnt]e
+m 0 man [^bdeknmt]
+m 0 smen [bdknmt]
+m 0 smen [aeiou][bdklmnt]e
+m 0 men [^aeiou][bdklmnt]e
+m 0 men [^bdklmnt]e
+m 0 men [^bdeknmt]
+m 0 sman's [bdknmt]
+m 0 sman's [aeiou][bdklmnt]e
+m 0 man's [^aeiou][bdklmnt]e
+m 0 man's [^bdklmnt]e
+m 0 man's [^bdeknmt]
+m 0 smen's [bdknmt]
+m 0 smen's [aeiou][bdklmnt]e
+m 0 men's [^aeiou][bdklmnt]e
+m 0 men's [^bdklmnt]e
+m 0 men's [^bdeknmt]
+5 Y 15
+5 0 swoman [bdknmt]
+5 0 swoman [aeiou][bdklmnt]e
+5 0 woman [^aeiou][bdklmnt]e
+5 0 woman [^bdklmnt]e
+5 0 woman [^bdeknmt]
+5 0 swomen [bdknmt]
+5 0 swomen [aeiou][bdklmnt]e
+5 0 women [^aeiou][bdklmnt]e
+5 0 women [^bdklmnt]e
+5 0 women [^bdeknmt]
+5 0 swoman's [bdknmt]
+5 0 swoman's [aeiou][bdklmnt]e
+5 0 woman's [^aeiou][bdklmnt]e
+5 0 woman's [^bdklmnt]e
+5 0 woman's [^bdeknmt]
+6 Y 3
+6 y iful [^aeiou]y
+6 0 ful [aeiou]y
+6 0 ful [^y]
+j Y 3
+j y ifully [^aeiou]y
+j 0 fully [aeiou]y
+j 0 fully [^y]
+p Y 5
+p y iless [^aeiou]y
+p 0 less [aeiou]y
+p 0 ess ll
+p 0 less [^l]l
+p 0 less [^ly]
+Q Y 88
+Q 0 tise a
+Q e ise [^l]e
+Q le ilise [^aeiou]le
+Q e ise [aeiou]le
+Q um ise um
+Q 0 ise [^u]m
+Q s se is
+Q 0 ise [^i]s
+Q y ise [^aeiou]y
+Q 0 ise [aeiou]y
+Q 0 ise [^aemsy]
+Q 0 tises a
+Q e ises [^l]e
+Q le ilises [^aeiou]le
+Q e ises [aeiou]le
+Q um ises um
+Q 0 ises [^u]m
+Q s ses is
+Q 0 ises [^i]s
+Q y ises [^aeiou]y
+Q 0 ises [aeiou]y
+Q 0 ises [^aemsy]
+Q 0 tised a
+Q e ised [^l]e
+Q le ilised [^aeiou]le
+Q e ised [aeiou]le
+Q um ised um
+Q 0 ised [^u]m
+Q s sed is
+Q 0 ised [^i]s
+Q y ised [^aeiou]y
+Q 0 ised [aeiou]y
+Q 0 ised [^aemsy]
+Q 0 tising a
+Q e ising [^l]e
+Q le ilising [^aeiou]le
+Q e ising [aeiou]le
+Q um ising um
+Q 0 ising [^u]m
+Q s sing is
+Q 0 ising [^i]s
+Q y ising [^aeiou]y
+Q 0 ising [aeiou]y
+Q 0 ising [^aemsy]
+Q 0 tize a
+Q e ize [^l]e
+Q le ilize [^aeiou]le
+Q e ize [aeiou]le
+Q um ize um
+Q 0 ize [^u]m
+Q s ze is
+Q 0 ize [^i]s
+Q y ize [^aeiou]y
+Q 0 ize [aeiou]y
+Q 0 ize [^aemsy]
+Q 0 tizes a
+Q e izes [^l]e
+Q le ilizes [^aeiou]le
+Q e izes [aeiou]le
+Q um izes um
+Q 0 izes [^u]m
+Q s zes is
+Q 0 izes [^i]s
+Q y izes [^aeiou]y
+Q 0 izes [aeiou]y
+Q 0 izes [^aemsy]
+Q 0 tized a
+Q e ized [^l]e
+Q le ilized [^aeiou]le
+Q e ized [aeiou]le
+Q um ized um
+Q 0 ized [^u]m
+Q s zed is
+Q 0 ized [^i]s
+Q y ized [^aeiou]y
+Q 0 ized [aeiou]y
+Q 0 ized [^aemsy]
+Q 0 tizing a
+Q e izing [^l]e
+Q le ilizing [^aeiou]le
+Q e izing [aeiou]le
+Q um izing um
+Q 0 izing [^u]m
+Q s zing is
+Q 0 izing [^i]s
+Q y izing [^aeiou]y
+Q 0 izing [aeiou]y
+Q 0 izing [^aemsy]
+q Y 44
+q 0 tisation a
+q e isation [^l]e
+q le ilisation [^aeiou]le
+q e isation [aeiou]le
+q um isation um
+q 0 isation [^u]m
+q s sation is
+q 0 isation [^i]s
+q y isation [^aeiou]y
+q 0 isation [aeiou]y
+q 0 isation [^aemsy]
+q 0 tisations a
+q e isations [^l]e
+q le ilisations [^aeiou]le
+q e isations [aeiou]le
+q um isations um
+q 0 isations [^u]m
+q s sations is
+q 0 isations [^i]s
+q y isations [^aeiou]y
+q 0 isations [aeiou]y
+q 0 isations [^aemsy]
+q 0 tization a
+q e ization [^l]e
+q le ilization [^aeiou]le
+q e ization [aeiou]le
+q um ization um
+q 0 ization [^u]m
+q s zation is
+q 0 ization [^i]s
+q y ization [^aeiou]y
+q 0 ization [aeiou]y
+q 0 ization [^aemsy]
+q 0 tizations a
+q e izations [^l]e
+q le ilizations [^aeiou]le
+q e izations [aeiou]le
+q um izations um
+q 0 izations [^u]m
+q s zations is
+q 0 izations [^i]s
+q y izations [^aeiou]y
+q 0 izations [aeiou]y
+q 0 izations [^aemsy]
+s Y 66
+s 0 tiser a
+s e iser [^l]e
+s le iliser [^aeiou]le
+s e iser [aeiou]le
+s um iser um
+s 0 iser [^u]m
+s s ser is
+s 0 iser [^i]s
+s y iser [^aeiou]y
+s 0 iser [aeiou]y
+s 0 iser [^aemsy]
+s 0 tisers a
+s e isers [^l]e
+s le ilisers [^aeiou]le
+s e isers [aeiou]le
+s um isers um
+s 0 isers [^u]m
+s s sers is
+s 0 isers [^i]s
+s y isers [^aeiou]y
+s 0 isers [aeiou]y
+s 0 isers [^aemsy]
+s 0 tiser's a
+s e iser's [^l]e
+s le iliser's [^aeiou]le
+s e iser's [aeiou]le
+s um iser's um
+s 0 iser's [^u]m
+s s ser's is
+s 0 iser's [^i]s
+s y iser's [^aeiou]y
+s 0 iser's [aeiou]y
+s 0 iser's [^aemsy]
+s 0 tizer a
+s e izer [^l]e
+s le ilizer [^aeiou]le
+s e izer [aeiou]le
+s um izer um
+s 0 izer [^u]m
+s s zer is
+s 0 izer [^i]s
+s y izer [^aeiou]y
+s 0 izer [aeiou]y
+s 0 izer [^aemsy]
+s 0 tizers a
+s e izers [^l]e
+s le ilizers [^aeiou]le
+s e izers [aeiou]le
+s um izers um
+s 0 izers [^u]m
+s s zers is
+s 0 izers [^i]s
+s y izers [^aeiou]y
+s 0 izers [aeiou]y
+s 0 izers [^aemsy]
+s 0 tizer's a
+s e izer's [^l]e
+s le ilizer's [^aeiou]le
+s e izer's [aeiou]le
+s um izer's um
+s 0 izer's [^u]m
+s s zer's is
+s 0 izer's [^i]s
+s y izer's [^aeiou]y
+s 0 izer's [aeiou]y
+s 0 izer's [^aemsy]
+t Y 44
+t 0 tisable a
+t e isable [^l]e
+t le ilisable [^aeiou]le
+t e isable [aeiou]le
+t um isable um
+t 0 isable [^u]m
+t s sable is
+t 0 isable [^i]s
+t y isable [^aeiou]y
+t 0 isable [aeiou]y
+t 0 isable [^aemsy]
+t 0 tizable a
+t e izable [^l]e
+t le ilizable [^aeiou]le
+t e izable [aeiou]le
+t um izable um
+t 0 izable [^u]m
+t s zable is
+t 0 izable [^i]s
+t y izable [^aeiou]y
+t 0 izable [aeiou]y
+t 0 izable [^aemsy]
+t 0 tisability a
+t e isability [^l]e
+t le ilisability [^aeiou]le
+t e isability [aeiou]le
+t um isability um
+t 0 isability [^u]m
+t s sability is
+t 0 isability [^i]s
+t y isability [^aeiou]y
+t 0 isability [aeiou]y
+t 0 isability [^aemsy]
+t 0 tizability a
+t e izability [^l]e
+t le ilizability [^aeiou]le
+t e izability [aeiou]le
+t um izability um
+t 0 izability [^u]m
+t s zability is
+t 0 izability [^i]s
+t y izability [^aeiou]y
+t 0 izability [aeiou]y
+t 0 izability [^aemsy]
+M Y 1
+M 0 's .
+B Y 48
+B e able [^acegilotu]e
+B 0 able [acegilou]e
+B te ble ate
+B e able [^a]te
+B 0 bable [^aeio][aeiou]b
+B 0 kable [^aeio][aeiou]c
+B 0 dable [^aeio][aeiou]d
+B 0 fable [^aeio][aeiou]f
+B 0 gable [^aeio][aeiou]g
+B 0 kable [^aeio][aeiou]k
+B 0 lable [^aeio][aeiou]l
+B 0 mable [^aeio][aeiou]m
+B 0 nable [^aeio][aeiou]n
+B 0 pable [^aeio][aeiou]p
+B 0 rable [^aeio][aeiou]r
+B 0 sable [^aeio][aeiou]s
+B 0 table [^aeio][aeiou]t
+B 0 vable [^aeio][aeiou]v
+B 0 zable [^aeio][aeiou]z
+B 0 able [aeio][aeiou][bcdfgklmnprstvz]
+B 0 able [^aeiou][bcdfgklmnprstvz]
+B y iable [^aeiou]y
+B 0 able [aeiou]y
+B 0 able [^ebcdfgklmnprstvzy]
+B e ability [^acegilotu]e
+B 0 ability [acegilou]e
+B te bility ate
+B e ability [^a]te
+B 0 bability [^aeio][aeiou]b
+B 0 kability [^aeio][aeiou]c
+B 0 dability [^aeio][aeiou]d
+B 0 fability [^aeio][aeiou]f
+B 0 gability [^aeio][aeiou]g
+B 0 kability [^aeio][aeiou]k
+B 0 lability [^aeio][aeiou]l
+B 0 mability [^aeio][aeiou]m
+B 0 nability [^aeio][aeiou]n
+B 0 pability [^aeio][aeiou]p
+B 0 rability [^aeio][aeiou]r
+B 0 sability [^aeio][aeiou]s
+B 0 tability [^aeio][aeiou]t
+B 0 vability [^aeio][aeiou]v
+B 0 zability [^aeio][aeiou]z
+B 0 ability [aeio][aeiou][bcdfgklmnprstvz]
+B 0 ability [^aeiou][bcdfgklmnprstvz]
+B y iability [^aeiou]y
+B 0 ability [aeiou]y
+B 0 ability [^ebcdfgklmnprstvzy]
+7 Y 9
+7 e able [acegilou]e
+7 0 able [^acegilou]e
+7 0 kable [^aeio][aeiou]c
+7 0 lable [^aeio][aeiou]l
+7 0 able [aeio][aeiou][cl]
+7 0 able [^aeiou][cl]
+7 y iable [^aeiou]y
+7 0 able [aeiou]y
+7 0 able [^cely]
+g Y 9
+g e ability [^acegilou]e
+g 0 ability [acegilou]e
+g 0 kability [^aeio][aeiou]c
+g 0 lability [^aeio][aeiou]l
+g 0 ability [aeio][aeiou][cl]
+g 0 ability [^aeiou][cl]
+g y iability [^aeiou]y
+g 0 ability [aeiou]y
+g 0 ability [^cely]
+l Y 9
+l e ably [^acegilou]e
+l 0 ably [acegilou]e
+l 0 kably [^aeio][aeiou]c
+l 0 lably [^aeio][aeiou]l
+l 0 ably [aeio][aeiou][cl]
+l 0 ably [^aeiou][cl]
+l y iably [^aeiou]y
+l 0 ably [aeiou]y
+l 0 ably [^cely]
+b Y 3
+b e ible [^aeiou]e
+b 0 ible [aeiou]e
+b 0 ible [^e]
+L Y 12
+L 0 ament m
+L y iment [^aeiou]y
+L 0 ment [aeiou]y
+L 0 ment [^my]
+L 0 aments m
+L y iments [^aeiou]y
+L 0 ments [aeiou]y
+L 0 ments [^my]
+L 0 ament's m
+L y iment's [^aeiou]y
+L 0 ment's [aeiou]y
+L 0 ment's [^my]
+Z Y 22
+Z e y [^aeiouy]e
+Z 0 y [aeiouy]e
+Z 0 ey [aiouy]
+Z 0 by [^aeio][aeiou]b
+Z 0 ky [^aeio][aeiou]c
+Z 0 dy [^aeio][aeiou]d
+Z 0 fy [^aeio][aeiou]f
+Z 0 gy [^aeio][aeiou]g
+Z 0 ky [^aeio][aeiou]k
+Z 0 ly [^aeio][aeiou]l
+Z 0 my [^aeio][aeiou]m
+Z 0 ny [^aeio][aiou]n
+Z 0 py [^aeio][aeiou]p
+Z 0 ry [^aeio][aiou]r
+Z 0 sy [^aeio][aeiou]s
+Z 0 ty [^aeio][aiou]t
+Z 0 vy [^aeio][aeiou]v
+Z 0 zy [^aeio][aeiou]z
+Z 0 y [^aeio]e[nrt]
+Z 0 y [aeio][aeiou][bcdfgklmnprstvz]
+Z 0 y [^aeiou][bcdfgklmnprstvz]
+Z 0 y [^aebcdfgiklmnoprstuvyz]
+2 Y 21
+2 e iness [^aeiouy]e
+2 0 iness [aeiouy]e
+2 0 biness [^aeio][aeiou]b
+2 0 kiness [^aeio][aeiou]c
+2 0 diness [^aeio][aeiou]d
+2 0 finess [^aeio][aeiou]f
+2 0 giness [^aeio][aeiou]g
+2 0 kiness [^aeio][aeiou]k
+2 0 liness [^aeio][aeiou]l
+2 0 miness [^aeio][aeiou]m
+2 0 niness [^aeio][aiou]n
+2 0 piness [^aeio][aeiou]p
+2 0 riness [^aeio][aiou]r
+2 0 siness [^aeio][aeiou]s
+2 0 tiness [^aeio][aiou]t
+2 0 viness [^aeio][aeiou]v
+2 0 ziness [^aeio][aeiou]z
+2 0 iness [^aeio]e[nrt]
+2 0 iness [aeio][aeiou][bcdfgklmnprstvz]
+2 0 iness [^aeiou][bcdfgklmnprstvz]
+2 0 iness [^ebcdfgklmnprstvz]
+z Y 24
+z e ily [^aeiouy]e
+z 0 ily [aeiouy]e
+z 0 ily [aiou]y
+z ey ily ey
+z y ily [^aeiou]y
+z 0 bily [^aeio][aeiou]b
+z 0 kily [^aeio][aeiou]c
+z 0 dily [^aeio][aeiou]d
+z 0 fily [^aeio][aeiou]f
+z 0 gily [^aeio][aeiou]g
+z 0 kily [^aeio][aeiou]k
+z 0 lily [^aeio][aeiou]l
+z 0 mily [^aeio][aeiou]m
+z 0 nily [^aeio][aiou]n
+z 0 pily [^aeio][aeiou]p
+z 0 rily [^aeio][aiou]r
+z 0 sily [^aeio][aeiou]s
+z 0 tily [^aeio][aiou]t
+z 0 vily [^aeio][aeiou]v
+z 0 zily [^aeio][aeiou]z
+z 0 ily [^aeio]e[nrt]
+z 0 ily [aeio][aeiou][bcdfgklmnprstvyz]
+z 0 ily [^aeiou][bcdfgklmnprstvyz]
+z 0 ily [^ebcdfgklmnprstvyz]
+y Y 15
+y e ory te
+y e atory [mr]e
+y e ary se
+y 0 ry [^mrst]e
+y 0 ory [^aeous]t
+y 0 ry [aeous]t
+y 0 ery h
+y 0 atory [^i]m
+y im matory im
+y 0 ory s
+y 0 ary ion
+y 0 ry [^i]on
+y 0 nery [aiu]n
+y 0 ry [^aiou]n
+y 0 ry [^ehmstn]
+O Y 12
+O 0 l a
+O e al [^bcgv]e
+O e ial [bcgv]e
+O 0 ial [bcrx]
+O um al um
+O 0 al [^u]m
+O y al ty
+O y ial [^t]y
+O 0 ual [px]t
+O 0 tal [iu]t
+O 0 al [^ipux]t
+O 0 al [^aebcrtxmy]
+o Y 12
+o e ally [^bcgv]e
+o e ially [bcgv]e
+o 0 ially [bcrx]
+o um ally um
+o 0 ally [^u]m
+o y ally ty
+o y ially [^t]y
+o 0 ually [px]t
+o 0 tally [iu]t
+o 0 ally [^ipux]t
+o 0 ally [^aebcrtxmy]
+W Y 21
+W ce tific ce
+W e atic me
+W se tic se
+W le ic ble
+W e ic [^b]le
+W e ic [^clms]e
+W 0 lic [ay]l
+W 0 ic [^ay]l
+W us ic us
+W 0 tic [^u]s
+W er ric er
+W 0 ic [^e]r
+W 0 atic [aeiou]m
+W 0 ic [^aeiou]m
+W 0 tic ma
+W a ic [^m]a
+W y etic thy
+W y ic [^t]hy
+W y tic sy
+W y ic [^hs]y
+W 0 ic [^aelmrsy]
+w Y 9
+w e ical e
+w er rical er
+w 0 ical [^e]r
+w 0 atical [aeiou]m
+w 0 ical [^aeiou]m
+w 0 tical ma
+w a ical [^m]a
+w y ical y
+w 0 ical [^aemry]
+1 Y 9
+1 e ically e
+1 er rically er
+1 0 ically [^e]r
+1 0 atically [aeiou]m
+1 0 ically [^aeiou]m
+1 0 tically ma
+1 a ically [^m]a
+1 y ically y
+1 0 ically [^aemry]
+3 Y 21
+3 e ist [^aceiou]e
+3 ce tist ce
+3 0 ist [aeiou]e
+3 y ist [^aeioubp]y
+3 0 ist [aeioubp]y
+3 o ist o
+3 0 ists [^eoy]
+3 e ists [^aceiou]e
+3 ce tists ce
+3 0 ists [aeiou]e
+3 y ists [^aeioubp]y
+3 0 ists [aeioubp]y
+3 o ists o
+3 0 ists [^eoy]
+3 e ist's [^aceiou]e
+3 ce tist's ce
+3 0 ist's [aeiou]e
+3 y ist's [^aeioubp]y
+3 0 ist's [aeioubp]y
+3 o ist's o
+3 0 ist's [^eoy]
+
+[Phonetic]
+AH(AEIOUY)-^         *H
+AR(AEIOUY)-^         *R
+A(HR)^               *
+A^                   *
+AH(AEIOUY)-          H
+AR(AEIOUY)-          R
+A(HR)                _
+BB-                  _
+B                    B
+CQ-                  _
+CIA                  X
+CH                   X
+C(EIY)-              S
+CK                   K
+COUGH^               KF
+CC<                  C
+C                    K
+DG(EIY)              K
+DD-                  _
+D                    T
+É<                   E
+EH(AEIOUY)-^         *H
+ER(AEIOUY)-^         *R
+E(HR)^               *
+ENOUGH^$             *NF
+E^                   *
+EH(AEIOUY)-          H
+ER(AEIOUY)-          R
+E(HR)                _
+FF-                  _
+F                    F
+GN^                  N
+GN$                  N
+GNS$                 NS
+GNED$                N
+GH(AEIOUY)-          K
+GH                   _
+GG9                  K
+G                    K
+H                    H
+IH(AEIOUY)-^         *H
+IR(AEIOUY)-^         *R
+I(HR)^               *
+I^                   *
+ING6                 N
+IH(AEIOUY)-          H
+IR(AEIOUY)-          R
+I(HR)                _
+J                    K
+KN^                  N
+KK-                  _
+K                    K
+LAUGH^               LF
+LL-                  _
+L                    L
+MB$                  M
+MM                   M
+M                    M
+NN-                  _
+N                    N
+OH(AEIOUY)-^         *H
+OR(AEIOUY)-^         *R
+O(HR)^               *
+O^                   *
+OH(AEIOUY)-          H
+OR(AEIOUY)-          R
+O(HR)                _
+PH                   F
+PN^                  N
+PP-                  _
+P                    P
+Q                    K
+RH^                  R
+ROUGH^               RF
+RR-                  _
+R                    R
+SCH(EOU)-            SK
+SC(IEY)-             S
+SH                   X
+SI(AO)-              X
+SS-                  _
+S                    S
+TI(AO)-              X
+TH                   @
+TCH--                _
+TOUGH^               TF
+TT-                  _
+T                    T
+UH(AEIOUY)-^         *H
+UR(AEIOUY)-^         *R
+U(HR)^               *
+U^                   *
+UH(AEIOUY)-          H
+UR(AEIOUY)-          R
+U(HR)                _
+V^                   W
+V                    F
+WR^                  R
+WH^                  W
+W(AEIOU)-            W
+X^                   S
+X                    KS
+Y(AEIOU)-            Y
+ZZ-                  _
+Z                    S
+
+[Words]
+à
+A//*
+a/o/*
+AA//*
+AAA//*
+Aachen/M/*XN
+aardvark/SM/*TFK
+Aarhus/M/*HS
+Aaron/M/*RN
+Aaronvitch/M/*RNFX
+aback//*BK
+abacus/MS/*BKS
+abaft//*BFT
+abalone/MS/*BLN
+abandon/dLS/*BNTN
+abandoner/M/*BNTN
+abase/LDSG/*BS
+abaser/M/*BS
+abash/LGDhS/*BX
+abashed/UY/*BXT
+abate/GDLS/*BT
+abated/U/*BTT
+abater/M/*BT
+abattoir/MS/*BT
+Abba/M/*B
+abbé/S/*B
+abbess/MS/*BS
+abbey/SM/*B
+abbot/SM/*BT
+Abbott/M/*BT
+abbreviate/nDGNS/*BRFT
+abbreviated/U/*BRFTT
+abbreviation/M/*BRFXN
+abdicate/DSNnG/*BTKT
+abdication/M/*BTKXN
+abdomen/SM/*BTMN
+abdominal/YS/*BTMNL
+abduct/SGD/*BTKT
+abduction/SM/*BTKXN
+abductor/SM/*BTKT
+Abdul/M/*BTL
+Abe/M/*B
+abeam//*BM
+Abel/M/*BL
+Abelard/M/*BLT
+Abelson/M/*BLSN
+Aberdeen/M/*BTN
+Abernathy/M/*BN@
+aberrant/YS/*BRNT
+aberration/SM/*BRXN
+abet/DGS/*BT
+abettor/SM/*BT
+abeyance/SM/*BYNS
+abeyant//*BYNT
+abhor/DGS/*BH
+abhorrence/MS/*BHRNS
+abhorrent/Y/*BHRNT
+abhorrer/M/*BHR
+abidance/MS/*BTNS
+abide/SJGDk/*BT
+abider/M/*BT
+Abidjan//*BTKN
+Abigail/M/*BKL
+Abilene/M/*BLN
+ability/ISEM/*BLT
+abject/YP/*BKKT
+abjection/SM/*BKKXN
+abjectness/S/*BKKTNS
+abjuration/M/*BKRXN
+abjure/yDNSnRG/*BKR
+ablate/DGS/*BLT
+ablation/M/*BLXN
+ablative/S/*BLTF
+ablaze//*BLS
+able/vNnVTY/*BL
+able-bodied//*BLBTT
+abler/E/*BL
+abloom//*BLM
+ablution/MS/*BLXN
+abnegate/DGnSN/*BNKT
+abnegation/M/*BNKXN
+abnormal/YS/*BNML
+abnormality/MS/*BNMLT
+aboard//*BT
+abode/MS/*BT
+abolish/RLDGS/*BLX
+abolition/M3S/*BLXN
+abolitionism/SM/*BLXNSM
+abolitionist//*BLXNST
+abominable/Y/*BMNBL
+abominate/GNDSn/*BMNT
+abomination/M/*BMNXN
+aboriginal/S/*BRKNL
+aborigine/oSM/*BRKN
+abort/VGDSvu/*BT
+aborter//*BT
+abortion/3MS/*BXN
+abortionist//*BXNST
+abortive/P/*BTF
+abound/DSG/*BNT
+about//*BT
+above//*BF
+aboveboard//*BFBT
+aboveground//*BFKRNT
+abracadabra/S/*BRKTBR
+abrade/NDSXvuGV/*BRT
+abrader/M/*BRT
+Abraham/M/*BRHM
+Abram/M/*BRM
+abrasion/M/*BRXN
+abrasive/SM/*BRSF
+abrasiveness/S/*BRSFNS
+abreaction/SM/*BRKXN
+abreast//*BRST
+abridge/LSGD/*BRK
+abridged/U/*BRKT
+abridger/M/*BRKR
+abroad//*BRT
+abrogate/NDnSG/*BRKT
+abrogation/M/*BRKXN
+abrogator/SM/*BRKT
+abrupt/TYP/*BRPT
+abruptness/S/*BRPTNS
+abs/M/*BS
+abscess/SDMG/*BSS
+abscissa/SM/*BSS
+abscissae//*BSS
+abscission/SM/*BSXN
+abscond/RSDG/*BSKNT
+abseil/DSG/*BSL
+abseiler//*BSL
+absence/MS/*BSNS
+absent/YGSD/*BSNT
+absentee/MS/*BSNT
+absenteeism/MS/*BSNTSM
+absenter//*BSNT
+absentia/M/*BSNX
+absent-minded/Y/*BSNTMNTT
+absent-mindedness/S/*BSNTMNTTNS
+absinthe/MS/*BSN@
+absolute/PT3YS/*BSLT
+absoluteness/S/*BSLTNS
+absolution/MS/*BSLXN
+absolutism/MS/*BSLTSM
+absolve/SGD/*BSLF
+absolver/M/*BSLF
+absorb/SRGNkXDV/*BSB
+absorbed/AU/*BSBT
+absorbency/SM/*BSBNS
+absorbent/MS/*BSBNT
+absorbs/A/*BSBS
+absorption/M/*BSPXN
+absorptivity/M/*BSPTFT
+abstain/SRDG/*BSTN
+abstemious/YP/*BSTMS
+abstemiousness/S/*BSTMSNS
+abstention/SM/*BSTNXN
+abstinence/SM/*BSTNNS
+abstinent/Y/*BSTNNT
+abstract/iTPDGVhYS/*BSTRKT
+abstracted/P/*BSTRKTT
+abstractedness/S/*BSTRKTTNS
+abstracter/M/*BSTRKT
+abstraction/3SM/*BSTRKXN
+abstractionism/M/*BSTRKXNSM
+abstractionist//*BSTRKXNST
+abstractness/S/*BSTRKTNS
+abstractor/MS/*BSTRKT
+abstruse/TPY/*BSTRS
+abstruseness/S/*BSTRSNS
+absurd/YPT/*BST
+absurdity/MS/*BSTT
+absurdness/S/*BSTNS
+Abu//*B
+abundance/SM/*BNTNS
+abundant/Y/*BNTNT
+abusable//*BSBL
+abuse/RvDVuSG/*BS
+abused/E/*BST
+abuses/E/*BSS
+abusing/E/*BSN
+abusive/P/*BSF
+abusiveness/S/*BSFNS
+abut/RSGLD/*BT
+abuzz//*BS
+abysmal/Y/*BSML
+abyss/MS/*BS
+abyssal//*BSL
+Abyssinia/M/*BSN
+Abyssinian//*BSNN
+Ac//*K
+AC//*K
+acacia/MS/*KX
+academe/MwZS1/*KTM
+academia/MS/*KTM
+academic/S/*KTMK
+academician/MS/*KTMXN
+academicianship//*KTMXNXP
+academy/SWM/*KTM
+Acadia//*KT
+acanthus/SM/*KN@S
+Acapulco/M/*KPLK
+ACAS//*KS
+acc.//*K
+accede/GDS/*ST
+accelerate/SkNDGVn/*SLRT
+acceleration/M/*SLRXN
+accelerator/SM/*SLRT
+accelerometer/SM/*SLRMT
+accent/GSMD/*SNT
+accented/U/*SNTT
+accentual/Y/*SNTL
+accentuate/SDNnG/*SNTT
+accentuation/M/*SNTXN
+accept/lRVBGkhSD/*SPT
+acceptabilities//*SPTBLTS
+acceptability/U/*SPTBLT
+acceptability's//*SPTBLTS
+acceptable/P/*SPTBL
+acceptableness/S/*SPTBLNS
+acceptably/U/*SPTBL
+acceptance/MS/*SPTNS
+acceptant//*SPTNT
+accepted/U/*SPTT
+acceptingness//*SPTNNS
+acceptor/SM/*SPT
+access/yDXMGNSb/*SS
+accessibility/SIM/*SSBLT
+accessible/YI/*SSBL
+accessibly/I/*SSBL
+accession/MDG/*SXN
+accessors//*SSS
+accessory/SM/*SSR
+accidence/M/*STNS
+accident/MSo/*STNT
+accidental/PS/*STNTL
+accident-prone//*STNTPRN
+acclaim/GSD/*KLM
+acclaimer/M/*KLM
+acclamation/MS/*KLMXN
+acclimate/nQsDSGN/*KLMT
+acclimation/M/*KLMXN
+acclimatisation//*KLMTSXN
+acclimatise/ADGS/*KLMTS
+acclimatization//*KLMTSXN
+acclimatize/ASDG/*KLMTS
+acclivity/SM/*KLFT
+accolade/SGDM/*KLT
+accommodate/SNuDnkVG/*KMTT
+accommodating/U/*KMTTN
+accommodation/M/*KMTXN
+accommodative/P/*KMTTF
+accompanied/U/*KMPNT
+accompanier/M/*KMPN
+accompany/L3DSG/*KMPN
+accomplice/MS/*KMPLS
+accomplish/DRLGS/*KMPLX
+accomplished/U/*KMPLXT
+accord/MDRSGk/*KT
+accordance/SM/*KTNS
+accordant/Y/*KTNT
+accordion/3SM/*KTN
+accordionist//*KTNST
+accost/DGS/*KST
+account/BGJSMlD/*KNT
+accountability/SM/*KNTBLT
+accountability's/U/*KNTBLTS
+accountable/P/*KNTBL
+accountably/U/*KNTBL
+accountancy/SM/*KNTNS
+accountant/MS/*KNTNT
+accounted/U/*KNTT
+accounting/M/*KNTN
+accoutre/DLGS/*KTR
+Accra/M/*KR
+accredit/ndS/*KRTT
+accreditation/M/*KRTTXN
+accredited/U/*KRTTT
+accreted//*KRTT
+accretion/MS/*KRXN
+accrual/MS/*KRL
+accrue/DSG/*KR
+acct//*KT
+acculturate/SGNVnD/*KLTRT
+acculturation/M/*KLTRXN
+accumulate/uSGNVDnv/*KMLT
+accumulation/M/*KMLXN
+accumulative/P/*KMLTF
+accumulator/SM/*KMLT
+accuracy/SIM/*KRS
+accurate/IY/*KRT
+accurateness/MS/*KRTNS
+accursed/YP/*KST
+accursedness/S/*KSTNS
+accusal/M/*KSL
+accusation/M/*KSXN
+accusative/S/*KSTF
+accusatory//*KSTR
+accuse/nRkDGS/*KS
+accused/M/*KST
+accustom/dS/*KSTM
+accustomed/P/*KSTMT
+ace/MuvSnVN/*S
+acer//*S
+acerbate/DSG/*SBT
+acerbic/Y/*SBK
+acerbity/MS/*SBT
+acetaminophen/S/*STMNFN
+acetate/MS/*STT
+acetic//*STK
+acetone/MS/*STN
+acetylene/SM/*STLN
+Achaean/M/*XN
+ache/DkZSMG/*X
+ached/FKA/*XT
+achene/SM/*XN
+aches/FKA/*XS
+achievable/U/*XFBL
+achieve/LGDRS/*XF
+achieved/fcU/*XFT
+achievement/f/*XFMNT
+achiever/fSM/*XF
+achievers/c/*XFS
+achieves/cf/*XFS
+achieving/fc/*XFN
+Achilles//*XLS
+aching/KY/*XN
+achromatic//*XRMTK
+achy/TK/*X
+acid/WPYMS/*ST
+acidification/M/*STFKXN
+acidify/GSND/*STF
+acidity/SM/*STT
+acidophiles//*STFLS
+acidoses//*STSS
+acidosis/M/*STSS
+acidulous//*STLS
+Ackerman/M/*KMN
+acknowledge/LRShDG/*KNLK
+acknowledgeable//*KNLKBL
+acknowledged/U/*KNLKT
+ACM//*KM
+acme/SM/*KM
+acne/SDM/*KN
+acolyte/SM/*KLT
+aconite/SM/*KNT
+acorn/SM/*KN
+acoustic/YS/*KSTK
+acoustical//*KSTKL
+acoustician/M/*KSTXN
+acoustics/M/*KSTKS
+acquaint/GADS/*KNT
+acquaintance/MS/*KNTNS
+acquaintanceship/S/*KNTNSXP
+acquainted/U/*KNTT
+acquiesce/SGD/*KS
+acquiescence/SM/*KSNS
+acquiescent/Y/*KSNT
+acquirable//*KRBL
+acquire/LDSG/*KR
+acquired/A/*KRT
+acquires/A/*KRS
+acquiring/A/*KRN
+acquisition/AM/*KSXN
+acquisitions//*KSXNS
+acquisitive/PY/*KSTF
+acquisitiveness/S/*KSTFNS
+acquit/DSG/*KT
+acquittal/MS/*KTL
+acquittance/M/*KTNS
+acquitter/M/*KT
+acre/SM/*KR
+acreage/SM/*KRK
+acrid/YP/*KRT
+acridity/SM/*KRTT
+acridness/S/*KRTNS
+acrimonious/YP/*KRMNS
+acrimoniousness/S/*KRMNSNS
+acrimony/SM/*KRMN
+acrobat/1MSW/*KRBT
+acrobatic/S/*KRBTK
+acrobatics/M/*KRBTKS
+acronym/MS/*KRNM
+acrophobia/SM/*KRFB
+acropolis/SM/*KRPLS
+across//*KRS
+acrostic/SM/*KRSTK
+acrylate/M/*KRLT
+acrylic/S/*KRLK
+act/MGJSD/*KT
+acted/c4A/*KTT
+acting/4c/*KTN
+actinic//*KTNK
+actinide/MS/*KTNT
+actinium/M/*KTNM
+actinometer/SM/*KTNMT
+action/IS4MA/*KXN
+actionable//*KXNBL
+actioned//*KXNT
+actioning//*KXNN
+activate/CnIANGD/*KTFT
+activates/IC/*KTFTS
+activation/CMIA/*KTFXN
+activator/SM/*KTFT
+active/3NPSn/*KTF
+actively/I/*KTFL
+activeness/S/*KTFNS
+activism/MS/*KTFSM
+activity/IMS/*KTFT
+Acton/M/*KTN
+actor/S4AM/*KT
+actress/MS/*KTRS
+acts/A4c/*KTS
+actual/qQYS/*KTL
+actuality/SM/*KTLT
+actuarial//*KTRL
+actuary/MoS/*KTR
+actuate/DSNnG/*KTT
+actuation/M/*KTXN
+actuator/MS/*KTT
+acuity/SM/*KT
+acumen/MS/*KMN
+acupressure/S/*KPRSR
+acupuncture/3MS/*KPNKTR
+acute/STPY/*KT
+acuteness/S/*KTNS
+acyclic/Y/*SKLK
+acyclovir/S/*SKLF
+ad/AS/*T
+adage/MS/*TK
+adagio/S/*TK
+Adair/M/*T
+Adam/MS/*TM
+adamant/SY/*TMNT
+Adamson/M/*TMSN
+adapt/niRGuBNDvSV/*TPT
+adaptability/MS/*TPTBLT
+adaptation/M/*TPTXN
+adapted/P/*TPTT
+adaptive/P/*TPTF
+adaptivity//*TPTFT
+adaptor/S/*TPT
+ADC//*TK
+add/RGS7D/*T
+addend/SM/*TNT
+addenda//*TNT
+addendum/M/*TNTM
+addict/DVuGS/*TKT
+addiction/SM/*TKXN
+Addison/M/*TSN
+addition/MSo/*TXN
+additional//*TXNL
+additive/YMS/*TTF
+additivity//*TTFT
+addle/SDG/*TL
+add-on/S/*TN
+address/MRGBDS/*TRS
+addressed/aA/*TRST
+addressee/MS/*TRS
+addresses/aA/*TRSS
+addressing/a/*TRSN
+adduce/DbGSNV/*TS
+adducer/M/*TS
+adduct/GDS/*TKT
+adduction/M/*TKXN
+adductor/M/*TKT
+Adelaide/M/*TLT
+Adele/M/*TL
+Aden/M/*TN
+Adenauer/M/*TN
+adenine/MS/*TNN
+adenoid/S/*TNT
+adenoidal//*TNTL
+adept/TPYS/*TPT
+adeptness/S/*TPTNS
+adequacy/ISM/*TKS
+adequate/PIY/*TKT
+adequateness/SI/*TKTNS
+adhere/RGSD/*THR
+adherence/SM/*THRNS
+adherent/YMS/*THRNT
+adhesion/MS/*THXN
+adhesive/YPMS/*THSF
+adhesiveness/S/*THSFNS
+adiabatic/Y/*TBTK
+adieu/S/*T
+adiós//*TS
+adipose/S/*TPS
+Adirondack/S/*TRNTK
+adjacency/SM/*TKSNS
+adjacent/Y/*TKSNT
+adjectival/Y/*TKKTFL
+adjective/MS/*TKKTF
+adjoin/DGS/*TKN
+adjourn/GDLS/*TKN
+adjudge/SDG/*TKK
+adjudicate/DnVyGSN/*TKTKT
+adjudication/M/*TKTKXN
+adjudicator/MS/*TKTKT
+adjunct/MSYV/*TKNKT
+adjuration/M/*TKRXN
+adjure/SnDNG/*TKR
+adjust/GLADS/*TKST
+adjustable/Y/*TKSTBL
+adjusted/U/*TKSTT
+adjuster/SM/*TKST
+adjustive//*TKSTF
+adjustor's//*TKSTS
+adjutant/MS/*TKTNT
+Adkins//*TKNS
+Adler/M/*TL
+adman/M/*TMN
+admen//*TMN
+administer/dnNS/*TMNST
+administrable//*TMNSTRBL
+administrate/SGDVv/*TMNSTRT
+administration/M/*TMNSTRXN
+administrator/MS/*TMNSTRT
+administratrix/M/*TMNSTRTRKS
+admirable/P/*TMRBL
+admiral/SM/*TMRL
+admiralty/MS/*TMRLT
+admiration/M/*TMRXN
+admire/NRnkSlDG/*TMR
+admissibility/SIM/*TMSBLT
+admissible/Y/*TMSBL
+admission/AM/*TMXN
+admit/SGAXDN/*TMT
+admittance/MS/*TMTNS
+admitted/Y/*TMTT
+admixture/SM/*TMKSTR
+admonish/GLkDS/*TMNX
+admonisher/M/*TMNX
+admonition/SM/*TMNXN
+admonitory//*TMNTR
+ado/M/*T
+adobe/vXSVMN/*TB
+adolescence/KS/*TLSNS
+adolescence's//*TLSNSS
+adolescent/SMY/*TLSNT
+Adolph/M/*TLF
+Adonis/M/*TNS
+adopt/R7DGS/*TPT
+adopted/UA/*TPTT
+adoption/M/*TPXN
+adopts/A/*TPTS
+adorable/P/*TRBL
+adorableness/S/*TRBLNS
+adoration/M/*TRXN
+adore/lnNDRSGk/*TR
+adorn/LDGS/*TN
+adorned/U/*TNT
+adrenal/YS/*TRNL
+adrenalin//*TRNLN
+adrenaline/MS/*TRNLN
+Adrian/M/*TRN
+Adriatic/M/*TRTK
+Adrienne/M/*TRN
+adrift//*TRFT
+adroit/PTY/*TRT
+adroitness/S/*TRTNS
+ads//*TS
+ad's//*TS
+adsorb/VvXDNGS/*TSB
+adsorbate/M/*TSBT
+adsorbent/S/*TSBNT
+adsorption/M/*TSPXN
+ADte//*TT
+adulate/SnNDyG/*TLT
+adulation/M/*TLXN
+adulator/MS/*TLT
+adult/MSYP/*TLT
+adulterant/SM/*TLTRNT
+adulterate/DNGnS/*TLTRT
+adulterated/U/*TLTRTT
+adulteration/M/*TLTRXN
+adulterer/MS/*TLTR
+adulteress/SM/*TLTRS
+adulterous/Y/*TLTRS
+adultery/SM/*TLTR
+adulthood/MS/*TL@T
+adumbrate/nDvGSNV/*TMBRT
+adumbration/M/*TMBRXN
+advance/DLRSG/*TFNS
+advantage/MDESG/*TFNTK
+advantageous/PY/*TFNTKS
+advantageously/E/*TFNTKSL
+advantageousness/E/*TFNTKSNS
+advent/vSM/*TFNT
+adventist/S/*TFNTST
+Adventist's//*TFNTSTS
+adventitious/PY/*TFNTXS
+adventure/aMS/*TFNTR
+adventured//*TFNTRT
+adventurer/MS/*TFNTR
+adventuresome//*TFNTRSM
+adventuress/MS/*TFNTRS
+adventuring//*TFNTRN
+adventurism//*TFNTRSM
+adventurous/PY/*TFNTRS
+adventurousness/S/*TFNTRSNS
+adverb/SoM/*TFB
+adverbial/MS/*TFBL
+adversarial//*TFSRL
+adversary/MS/*TFSR
+adverse/yPTDYGS/*TFS
+adverseness/S/*TFSNS
+adversity/MS/*TFST
+advert/S/*TFT
+advertise/JDLRSG/*TFTS
+advertised/U/*TFTST
+advertising/M/*TFTSN
+advice/MS/*TFS
+advisability/SM/*TFSBLT
+advisable/I/*TFSBL
+advise/BhRLSDGl/*TFS
+advisedly/I/*TFSTL
+advisee/SM/*TFS
+advisor/M/*TFS
+advisory/S/*TFSR
+advocacy/SM/*TFKS
+advocate/SGVD/*TFKT
+adze/MGSD/*TS
+Aegean/M/*KN
+aegis/MS/*KS
+aegrotat/SM/*KRTT
+Aeneas//*NS
+Aeneid//*NT
+aeolian//*LN
+Aeolus//*LS
+aeon/SM/*N
+aerate/DNnSG/*RT
+aeration/M/*RXN
+aerator/MS/*RT
+aerial/MS3/*RL
+aerialist//*RLST
+aerie/SToM/*R
+aero//*R
+aeroacoustic//*RKSTK
+aerobatic/S/*RBTK
+aerobic/YS/*RBK
+aerodrome/MS/*RTRM
+aerodynamic/YS/*RTNMK
+aerodynamics/M/*RTNMKS
+aero-engine/SM/*RNKN
+aerofoil/MS/*RFL
+aeronautic/SY/*RNTK
+aeronautical//*RNTKL
+aeronautics/M/*RNTKS
+aeroplane/SM/*RPLN
+aerosol/MS/*RSL
+aerospace/SM/*RSPS
+Aeschylus//*SXLS
+Aesculapius//*SKLPS
+Aesop/M/*SP
+aesthete/1WS/*S@T
+aesthetic/S/*S@TK
+aestheticism/MS/*S@TSSM
+aestival//*STFL
+aestivate/N/*STFT
+aether/M/*@
+aetiology/wW1M/*XLK
+AFAIK//*FK
+afar//*F
+AFC//*FK
+affability/MS/*FBLT
+affable/TY/*FBL
+affair/MS/*F
+affect/DkSiVvhGNn/*FKT
+affectation/M/*FKTXN
+affected/PEY/*FKTT
+affectedly/U/*FKTTL
+affecter/M/*FKT
+affecting/E/*FKTN
+affection/EMS/*FKXN
+affectionate/Y/*FKXNT
+affective/M/*FKTF
+affects/E/*FKTS
+afferent/SY/*FRNT
+affiance/GSD/*FNS
+affidavit/SM/*FTFT
+affiliate/nEGDSN/*FLT
+affiliated/U/*FLTT
+affiliation/ME/*FLXN
+affine//*FN
+affinity/MS/*FNT
+affirm/AnDNGS/*FM
+affirmation/AM/*FMXN
+affirmative/SY/*FMTF
+affix/DSG/*FKS
+afflatus/MS/*FLTS
+afflict/DvGVS/*FLKT
+affliction/SM/*FLKXN
+affluence/MS/*FLNS
+affluent/SY/*FLNT
+afford/BSDG/*FT
+affordable/U/*FTBL
+afforest/nSGND/*FRST
+afforestation/M/*FRSTXN
+affray/GSMD/*FR
+affricate/SVMN/*FRKT
+affrication/M/*FRKXN
+affricative/M/*FRKTF
+affright//*FRT
+affront/SGMD/*FRNT
+Afghan/MS/*FKN
+Afghani/SM/*FKN
+Afghanistan/M/*FKNSTN
+aficionado/MS/*FSNT
+afield//*FLT
+afire//*FR
+aflame//*FLM
+afloat//*FLT
+aflutter//*FLT
+afoot//*FT
+afore//*FR
+aforementioned//*FRMNXNT
+aforesaid//*FRST
+aforethought//*FR@T
+afoul//*FL
+afraid/U/*FRT
+afresh//*FRX
+Africa/M/*FRK
+African/SM/*FRKN
+Afrikaans//*FRKNS
+Afrikaner/SM/*FRKN
+afro//*FR
+aft//*FT
+after/S/*FT
+afterbirth/SM/*FTB@
+afterburner/MS/*FTBN
+after-care/MS/*FTKR
+after-effect/MS/*FTFKT
+afterglow/SM/*FTKL
+after-hours//*FTHS
+after-image/SM/*FTMK
+afterlife/M/*FTLF
+afterlives//*FTLFS
+aftermath/MS/*FTM@
+aftermost//*FTMST
+afternoon/SM/*FTNN
+afters/M/*FTS
+aftershave/S/*FTXF
+aftershock/MS/*FTXK
+after-taste/SM/*FTTST
+afterthought/SM/*FT@T
+afterwards//*FTWTS
+afterword/MS/*FTWT
+Ag//*K
+again//*KN
+against//*KNST
+Agamemnon/M/*KMMNN
+agape/S/*KP
+Ågar//K
+agar/MS/*K
+agar-agar//*KK
+agate/MS/*KT
+agave/MS/*KF
+age/eSM/*K
+aged/PY/*KT
+ageing//*KN
+ageism/S/*KSM
+ageist/MS/*KST
+ageless/YP/*KLS
+agelessness/S/*KLSNS
+age-long//*KLNK
+agency/SM/*KNS
+agenda/SM/*KNT
+agent/MDVGS/*KNT
+agents/A/*KNTS
+agent's/A/*KNTS
+age-old//*KLT
+ageratum/M/*KRTM
+Aggie/M/*K
+agglomerate/NDnSVG/*KLMRT
+agglomeration/M/*KLMRXN
+agglutinate/nVDGNS/*KLTNT
+agglutination/M/*KLTNXN
+agglutinin/MS/*KLTNN
+aggrandise/DLSG/*KRNTS
+aggrandize/LSDG/*KRNTS
+aggravate/nGDNSk/*KRFT
+aggravation/M/*KRFXN
+aggregate/DESNG/*KRKT
+aggregately//*KRKTL
+aggregation/SM/*KRKXN
+aggregative/Y/*KRKTF
+aggression/MS/*KRXN
+aggressive/Y/*KRSF
+aggressiveness/S/*KRSFNS
+aggressor/MS/*KRS
+aggrieve/SDGh/*KRF
+aghast//*KST
+agile/TY/*KL
+agility/SM/*KLT
+agitate/VhGNDnS/*KTT
+agitation/M/*KTXN
+agitator/SM/*KTT
+agitprop/MS/*KTPRP
+agleam//*KLM
+aglitter//*KLT
+aglow//*KL
+Agnatha//*KN@
+Agnes/M/*KNS
+Agnew/M/*KN
+agnostic/MS/*KNSTK
+agnosticism/SM/*KNSTSSM
+ago//*K
+agog//*KK
+agonise/kh/*KNS
+agonize/kh/*KNS
+agony/sQS/*KN
+agoraphobia/MS/*KRFB
+agoraphobic/S/*KRFBK
+agouti//*KT
+Agra//*KR
+agrarian/S/*KRRN
+agrarianism/SM/*KRRNSM
+agree/GEdLSl/*KR
+agreeable/PE/*KRBL
+agreeableness/SE/*KRBLNS
+agreer/SM/*KR
+agribusiness/MS/*KRBSNS
+agricultural/3/*KRKLTRL
+agriculturalist//*KRKLTRLST
+agriculture/MS3o/*KRKLTR
+Agrippa/M/*KRP
+agrochemical/S/*KRXMKL
+agronomic/S/*KRNMK
+agronomy/W3SM/*KRNM
+aground//*KRNT
+ague/MS/*K
+ah//*
+aha/S/*H
+Ahab/M/*HB
+ahead//*HT
+ahem/S/*HM
+ahoy/S/*H
+AI//*
+aid/RGSD/*T
+Aida/M/*T
+Aidan/M/*TN
+aide/MS/*T
+aided/U/*TT
+aide-de-camp//*TTKMP
+aide-mémoire//*TMMR
+aides-de-camp//*TSTKMP
+aigrette/MS/*KRT
+Aiken/M/*KN
+ail/DLSG/*L
+Aileen/M/*LN
+aileron/MS/*LRN
+aim/SDpRG/*M
+aimless/PY/*MLS
+aimlessness/S/*MLSNS
+ain't//*NT
+Ainu//*N
+air/2mTJSDpZMRzG/*
+airbase/S/*BS
+airborne//*BN
+airbrush/SGDM/*BRX
+Airbus/MS/*BS
+air-conditioned//*KNTXNT
+air-conditioner//*KNTXN
+air-conditioning//*KNTXNN
+air-cooled//*KLT
+aircraft/M/*KRFT
+aircraft-carrier/MS/*KRFTKR
+aircrew/SM/*KR
+Airdrie//*TR
+Airedale/M/*RTL
+Aires//*RS
+airfare/S/*FR
+airfield/SM/*FLT
+airflow/MS/*FL
+airframe/MS/*FRM
+airfreight/DGS/*FRT
+airhead/MS/*HT
+airiness/S/*RNS
+airing/M/*RN
+airlessness/S/*LSNS
+airlift/GSMD/*LFT
+airline/RMS/*LN
+airlock/MS/*LK
+airmail/MDG/*ML
+airmass//*MS
+airplay/S/*PL
+airport/MS/*PT
+airship/MS/*XP
+airsick/P/*SK
+airsickness/S/*SKNS
+airspace/MS/*SPS
+airspeed/MS/*SPT
+airstrip/SM/*STRP
+airtight/P/*TT
+airtime//*TM
+air-to-air//*T
+airwaves//*WFS
+airway/MS/*W
+airwoman//*WMN
+airwomen//*WMN
+airworthiness/S/*W@NS
+airworthy/TP/*W@
+airy/TP/*R
+aisle/SGMD/*SL
+aitch/SM/*X
+ajar//*K
+Ajax//*KKS
+aka//*K
+akimbo//*KMB
+akin//*KN
+Akron/M/*KRN
+al/FAC/*L
+Al/M/*L
+Alabama/M/*LBM
+Alabamans//*LBMNS
+Alabamian/M/*LBMN
+alabaster/SM/*LBST
+alack//*LK
+alacrity/SM/*LKRT
+Aladdin/M/*LTN
+Alameda//*LMT
+Alamo/S/*LM
+Alamogordo//*LMKT
+Alan/M/*LN
+alanine/M/*LNN
+Alaric/M/*LRK
+alarm/GDSk3/*LM
+alarmist//*LMST
+alas/S/*LS
+Alaska/M/*LSK
+Alastair/M/*LST
+alba/M/*LB
+albacore/MS/*LBKR
+Albania/M/*LBN
+Albanian/MS/*LBNN
+Albans//*LBNS
+Albany//*LBN
+albatross/MS/*LBTRS
+albedo/M/*LBT
+albeit//*LBT
+Albert/M/*LBT
+Alberta/M/*LBT
+Alberto/M/*LBT
+albinism/SM/*LBNSM
+albino/MS/*LBN
+Albion/M/*LBN
+Albrecht/M/*LBRXT
+album/MS/*LBM
+albumen/SM/*LBMN
+albumin/MS/*LBMN
+albuminous//*LBMNS
+Albuquerque/M/*LBKK
+alchemy/Sw3M/*LXM
+Alcoa//*LK
+alcohol/1MWS/*LKHL
+alcoholic/SM/*LKHLK
+alcoholism/MS/*LKHLSM
+alcove/DMS/*LKF
+aldehyde/M/*LTHT
+Alden/M/*LTN
+alder/m5MS/*LT
+Aldrich/M/*LTRX
+Aldridge/M/*LTRK
+Aldus//*LTS
+ale/SM/*L
+aleatory//*LTR
+Alec/M/*LK
+Aleck//*LK
+alee//*L
+alehouse/SM/*LHS
+alembic/MS/*LMBK
+aleph/M/*LF
+Aleppo/M/*LP
+alert/TYPRhSDG/*LT
+alertness/S/*LTNS
+Aleut//*LT
+Aleutian/M/*LXN
+A-levels//*LFLS
+alewife/M/*LWF
+alewives//*LWFS
+Alex/M/*LKS
+Alexander/M/*LKSNT
+Alexandria/M/*LKSNTR
+Alexandrian//*LKSNTRN
+Alexia/M/*LKS
+Alexis//*LKSS
+Alf/M/*LF
+Alfa/M/*LF
+alfalfa/MS/*LFLF
+Alfonso/M/*LFNS
+Alfred/M/*LFRT
+Alfredo/M/*LFRT
+alfresco//*LFRSK
+alga/M/*LK
+algae//*LK
+algaecide//*LKST
+algal//*LKL
+algebra/3MS/*LKBR
+algebraic/Y/*LKBRK
+algebraical//*LKBRKL
+algebraist//*LKBRST
+Alger/M/*LK
+Algeria/M/*LKR
+Algerian/M/*LKRN
+Algiers//*LKS
+alginate/MS/*LKNT
+ALGOL//*LKL
+Algonquian//*LKNKN
+Algonquin/M/*LKNKN
+algorithm/1SWM/*LKR@M
+al-Haili//*LHL
+Al-Haili//*LHL
+Alhambra/M/*LHMBR
+Ali/M/*L
+alias/DGS/*LS
+alibi/SMDG/*LB
+Alice/M/*LS
+Alicia/M/*LX
+alien/MNn3S7DG/*LN
+alienable/IU/*LNBL
+alienate/GSD/*LNT
+alienation/M/*LNXN
+aliener//*LN
+alienist//*LNST
+alight/DGS/*LT
+align/RLSGD/*LN
+aligned/AUa/*LN
+aligning/a/*LKNN
+aligns/aA/*LNS
+alike/P/*LK
+aliment/DMGS/*LMNT
+alimentary//*LMNTR
+alimony/MS/*LMN
+alinement's//*LNMNTS
+aliphatic//*LFTK
+aliquot/S/*LKT
+Alison/M/*LSN
+Alistair/M/*LST
+alive/P/*LF
+aliveness/S/*LFNS
+al-Jazeera//*LKSR
+Al-Jazeera//*LKSR
+alkali/MS/*LKL
+alkaline//*LKLN
+alkalinity/SM/*LKLNT
+alkalis/dS/*LKLS
+alkalise//*LKLS
+alkaloid/SM/*LKLT
+alkyd/S/*LKT
+alkyl/M/*LKL
+all/cSM/*L
+Allah/M/*L
+Allan/M/*LN
+allay/DGS/*L
+all-clear//*LKL
+all-day//*LT
+allegation/M/*LKXN
+allege/NDnhSG/*LK
+Allegheny/S/*LKN
+allegiance/MS/*LKNS
+allegiant//*LKNT
+allegoricalness//*LKRKLNS
+allegorising//*LKRSN
+allegory/Mw3SW1/*LKR
+allegretto/SM/*LKRT
+allegri//*LKR
+allegro/SM/*LKR
+allele/SWM/*LL
+alleluia/S/*LL
+allemande/M/*LMNT
+all-embracing//*LMBRSN
+Allen/M/*LN
+Allendale//*LNTL
+Allentown//*LNTN
+allergen/WMS/*LKN
+allergy/W1MS3/*LK
+alleviate/DnVSNG/*LFT
+alleviation/M/*LFXN
+alleviator/SM/*LFT
+alley/MS/*L
+alleyway/MS/*LW
+alliance/aSM/*LNS
+allier//*L
+allies/M/*LS
+alligator/MS/*LKT
+all-important//*LMPTNT
+all-in//*LN
+all-inclusive//*LNKLSF
+all-in-one//*LNN
+Allis//*LS
+Allison/M/*LSN
+alliterate/DSNGnVv/*LTRT
+alliteration/M/*LTRXN
+all-night//*LNT
+allocable//*LKBL
+allocatable/C/*LKTBL
+allocate/ASDnCGNK/*LKT
+allocated/U/*LKTT
+allocation/CMAK/*LKXN
+allocative//*LKTF
+allocator/SCK/*LKT
+allocator's/C/*LKTS
+allophone/SMW/*LFN
+allot/LSDG/*LT
+allotrope/MW/*LTRP
+allots/A/*LTS
+allotted/A/*LTT
+allotter/M/*LT
+allotting/A/*LTN
+all-out//*LT
+allow/7ShlGD/*L
+allowable/P/*LWBL
+allowance/SM/*LWNS
+allowed/E/*LWT
+allowing/E/*LWN
+allows/E/*LS
+alloy/MDGS/*L
+alloyed/U/*LYT
+all-pervading//*LPFTN
+all-powerful//*LPWFL
+all-purpose//*LPPS
+all-round//*LRNT
+all-rounder//*LRNT
+allspice/M/*LSPS
+all-star//*LST
+Allstate//*LSTT
+all-time//*LTM
+allude/DXSGVvNu/*LT
+allure/LSkGD/*LR
+allusion/M/*LXN
+allusive/P/*LSF
+allusiveness/S/*LSFNS
+alluvia//*LF
+alluvial/S/*LFL
+alluvions//*LFNS
+alluvium/MS/*LFM
+ally/GDS/*L
+Alma//*LM
+almagest//*LMKST
+almanac/MS/*LMNK
+almighty/P/*LMT
+almond/MS/*LMNT
+almoner/SM/*LMN
+almost//*LMST
+alms/m/*LMS
+almshouse/MS/*LMXS
+alnico//*LNK
+aloe/SM/*L
+aloft//*LFT
+aloha/SM/*LH
+alone/P/*LN
+along//*LNK
+alongshore//*LNKXR
+alongside//*LNKST
+aloof/PY/*LF
+aloofness/S/*LFNS
+aloud//*LT
+alp/M/*LP
+alpaca/MS/*LPK
+Alpert/M/*LPT
+alpha/MS/*LF
+alphabet/qQsSMWw1/*LFBT
+alphanumeric/YS/*LFNMRK
+alphanumerical//*LFNMRKL
+Alphonse/M/*LFNS
+alpine/4/*LPN
+alpines//*LPNS
+Alpinist/MS/*LPNST
+Alps//*LPS
+al-Qaeda/M/*LKT
+Al-Qaeda/M/*LKT
+al-Qa'ida/M/*LKT
+Al-Qa'ida/M/*LKT
+already//*LRT
+alright//*LRT
+Alsace/M/*LSS
+Alsatian/S/*LSXN
+Alsation/MS/*LSXN
+al-Sharif//*LXRF
+Al-Sharif//*LXRF
+also//*LS
+also-ran/S/*LSRN
+Altai/M/*LT
+Altaic/M/*LTK
+altar/SM/*LT
+altarpiece/SM/*LTPS
+alter/7dS/*LT
+alterable/IU/*LTRBL
+alteration/MS/*LTRXN
+altercate/Nn/*LTKT
+altercation/M/*LTKXN
+altered/U/*LTRT
+alterer/S/*LTR
+alternate/DSvuYGNnV/*LTNT
+alternation/M/*LTNXN
+alternative/MPS/*LTNTF
+alternator/MS/*LTNT
+Althea/M/*L@
+although//*L@
+altimeter/SM/*LTMT
+altitude/MS/*LTTT
+alto/SM/*LT
+altogether//*LTK@
+Alton/M/*LTN
+altruism/SM/*LTRSM
+altruist/MS1W/*LTRST
+ALU//*L
+alum/SM/*LM
+alumina/SM/*LMN
+aluminium/M/*LMNM
+alumna/M/*LMN
+alumnae//*LMN
+alumni//*LMN
+alumnus/MS/*LMNS
+alundum//*LNTM
+Alva/M/*LF
+Alvarez//*LFRS
+alveolar/Y/*LFL
+alveoli//*LFL
+alveolus/M/*LFLS
+Alvin/M/*LFN
+always//*LWS
+Alyssa/M/*LS
+al-Zawahiri//*LSWHR
+Al-Zawahiri//*LSWHR
+am/y/*M
+AMA//*M
+Amadeus/M/*MTS
+amalgam/nVSM/*MLKM
+amalgamate/DGS/*MLKMT
+amalgamation/M/*MLKMXN
+Amanda/M/*MNT
+amanuenses//*MNNSS
+amanuensis/M/*MNNSS
+amaranth/SM/*MRN@
+amaretto/S/*MRT
+Amarillo/M/*MRL
+amaryllis/SM/*MRLS
+amass/DSG/*MS
+amasser/M/*MS
+amateur/SM/*MT
+amateurish/YP/*MTRX
+amateurishness/S/*MTRXNS
+amateurism/SM/*MTRSM
+amaze/hLkDSG/*MS
+Amazon/MS/*MSN
+Amazonian//*MSNN
+ambassador/SM/*MBST
+ambassadorial//*MBSTRL
+ambassadorship/SM/*MBSTXP
+ambassadress/MS/*MBSTRS
+amber/SM/*MB
+ambergris/MS/*MBKRS
+ambiance/MS/*MBNS
+ambidexterity/SM/*MBTKSTRT
+ambidextrous/Y/*MBTKSTRS
+ambience/M/*MBNS
+ambient/S/*MBNT
+ambiguity/SM/*MBKT
+ambiguous/PY/*MBKS
+ambiguously/U/*MBKSL
+ambit/NXM/*MBT
+ambition/M/*MBXN
+ambitious/YP/*MBXS
+ambitiously/U/*MBXSL
+ambitiousness/S/*MBXSNS
+ambivalence/SM/*MBFLNS
+ambivalent/Y/*MBFLNT
+amble/RDGS/*MBL
+ambles/K/*MBLS
+ambrose//*MBRS
+ambrosia/MoS/*MBRX
+ambrosial//*MBRXL
+ambulance/MS/*MBLNS
+ambulant/S/*MBLNT
+ambulate/GDNnSy/*MBLT
+ambulation/M/*MBLXN
+ambulatory/S/*MBLTR
+ambuscade/MSGD/*MBSKT
+ambuscader/M/*MBSKT
+ambush/DRGSM/*MBX
+Amdahl/M/*MTL
+Amelia/M/*ML
+ameliorate/VDSNGn/*MLRT
+amelioration/M/*MLRXN
+amen/dg7Sl/*MN
+amenability/SM/*MNBLT
+amend/LD7GS/*MNT
+amender/M/*MNT
+amends/M/*MNTS
+amener//*MN
+amenity/MS/*MNT
+amenorrhoea/M/*MNRH
+Amerada//*MRT
+amerce/GDLS/*MS
+America/MS/*MRK
+American/qQMS/*MRKN
+Americana//*MRKN
+Americanism/S/*MRKNSM
+americium/SM/*MRSM
+Amerindian//*MRNTN
+Ames//*MS
+amethyst/MS/*M@ST
+amethystine//*M@STN
+Amherst/M/*MHST
+Ami//*M
+amiability/MS/*MBLT
+amiable/TPY/*MBL
+amicability/SM/*MKBLT
+amicable/PY/*MKBL
+amid//*MT
+amide/MS/*MT
+amidships//*MTXPS
+amidst//*MTST
+amigo/SM/*MK
+amine/S/*MN
+amino/M/*MN
+aminobenzoic//*MNBNSK
+amir's//*MS
+Amish/M/*MX
+amiss//*MS
+Amit/M/*MT
+amity/SM/*MT
+Amman/M/*MN
+ammeter/MS/*MT
+ammo/SM/*M
+ammonia/MS/*MN
+ammoniac//*MNK
+ammonites//*MNTS
+ammonium/M/*MNM
+ammunition/SM/*MNXN
+amnesia/SM/*MNX
+amnesiac/SM/*MNXK
+amnesic/S/*MNSK
+amnesty/SMDG/*MNST
+amniocenteses//*MNSNTSS
+amniocentesis/M/*MNSNTSS
+amnion/MS/*MNN
+amniotic//*MNTK
+Amoco/M/*MK
+amoeba/WMS/*MB
+amoebae//*MB
+amoeboid//*MBT
+amok//*MK
+among//*MNK
+amongst//*MNKST
+amontillado/SM/*MNTLT
+amoral//*MRL
+amorality/SM/*MRLT
+amorallym//*MRLM
+amorous/PY/*MRS
+amorousness/S/*MRSNS
+amorphous/PY/*MFS
+amorphousness/S/*MFSNS
+amortise/nDSG/*MTS
+amortised/U/*MTST
+amortize/GDNnS/*MTS
+Amos//*MS
+amount/SMGD/*MNT
+amour/MS/*M
+amp/DGMYS/*MP
+amperage/MS/*MPRK
+ampere/SM/*MPR
+ampersand/SM/*MPSNT
+amphetamine/MS/*MFTMN
+Amphibia//*MFB
+amphibian/SM/*MFBN
+amphibious/PY/*MFBS
+amphibology/M/*MFBLK
+amphitheatre/SM/*MF@TR
+amphora/M/*MFR
+amphorae//*MFR
+ample/TP/*MPL
+amplification/M/*MPLFKXN
+amplify/NRGDSn/*MPLF
+amplitude/MS/*MPLTT
+ampoule/MS/*MPL
+amputate/GDSNn/*MPTT
+amputation/M/*MPTXN
+amputee/MS/*MPT
+Amsterdam/M/*MSTTM
+amt.//*MT
+Amtrak/M/*MTRK
+amulet/MS/*MLT
+amuse/RVLDGSkh/*MS
+amused/U/*MST
+amusing/P/*MSN
+Amy/M/*M
+amyl/M/*ML
+amylase/MS/*MLS
+an/o/*N
+Anabaptist/MS/*NBPTST
+anabolic//*NBLK
+anabolism/MS/*NBLSM
+anachronism/SM/*NXRNSM
+anachronistic/Y/*NXRNSTK
+anaconda/SM/*NKNT
+anaemia/SM/*NM
+anaemic/SY/*NMK
+anaerobe/SM1W/*NRB
+anaesthesia/MS/*NS@X
+anaesthesiology/3MS/*NS@XLK
+anaesthetic/MYS/*NS@TK
+anaesthetise/RnGDS/*NS@TS
+anaesthetist/MS/*NS@TST
+anaesthetize/NnDRSG/*NS@TS
+anaglyph/M/*NKLF
+anagram/SMDG/*NKRM
+anagrammatic/Y/*NKRMTK
+Anaheim/M/*NHM
+anal//*NL
+analecta//*NLKT
+analects//*NLKTS
+analgesia/MS/*NLKX
+analgesic/S/*NLKSK
+analogous/YP/*NLKS
+analogousness/S/*NLKSNS
+analogue/SM/*NLK
+analogy/QMwS1/*NLK
+analysable//*NLSBL
+analysand/SM/*NLSNT
+analyse/GSDW/*NLS
+analysed/aU/*NLST
+analyser/S/*NLS
+analysis/A/*NLSS
+analysis's//*NLSSS
+analyst/MS/*NLST
+analytic/YS/*NLTK
+analytical//*NLTKL
+analyticity/S/*NLTST
+analytics/M/*NLTKS
+anamorphic//*NMFK
+anapaest/MSW/*NPST
+anapaestic/S/*NPSTK
+anaphora/1WM/*NFR
+anaplasmosis/M/*NPLSMSS
+anarchism/MS/*NXSM
+anarchist/W/*NXST
+anarchy/M13SWw/*NX
+Anastasia/M/*NSTX
+anastigmatic//*NSTKMTK
+anastomoses//*NSTMSS
+anastomosis/M/*NSTMSS
+anastomotic//*NSTMTK
+anathema/QMS/*N@M
+Anatolia/M/*NTL
+Anatolian//*NTLN
+anatomical/S/*NTMKL
+anatomy/Q3w1WMS/*NTM
+ancestor/MS/*NSST
+ancestral/Y/*NSSTRL
+ancestress/MS/*NSSTRS
+ancestry/SM/*NSSTR
+anchor/m5dMS/*NX
+anchorage/MS/*NXRK
+anchoress//*NXRS
+anchoret/W/*NXRT
+anchorite/SWM/*NXRT
+anchoritism/M/*NXRTSM
+anchorpeople//*NXPPL
+anchorperson/S/*NXPSN
+anchovy/MS/*NXF
+ancient/YPTS/*NSNT
+ancientness/S/*NSNTNS
+ancillary/S/*NSLR
+and/GD/*NT
+Andalusia/M/*NTLX
+Andaman/M/*NTMN
+andante/S/*NTNT
+Andean/M/*NTN
+anders//*NTS
+Andersen/M/*NTSN
+Anderson/M/*NTSN
+Andes//*NTS
+andiron/MS/*NTRN
+Andorra/M/*NTR
+Andover/M/*NTF
+Andre/M/*NTR
+Andrea/MS/*NTR
+Andrei/M/*NTR
+Andrew/M/*NTR
+androgen/WMS/*NTRKN
+androgynous//*NTRKNS
+androgyny/SM/*NTRKN
+android/SM/*NTRT
+Andy/M/*NT
+anecdotal//*NKTTL
+anecdote/oSM/*NKTT
+anechoic//*NXK
+anemometer/SM/*NMMT
+anemometry/M/*NMMTR
+anemone/SM/*NMN
+aneroid//*NRT
+aneurysm/MS/*NRSM
+anew//*N
+angel/MWSw1/*NKL
+Angela/M/*NKL
+Angeles//*NKLS
+angelfish/MS/*NKLFX
+angelica/SM/*NKLK
+Angelina/M/*NKLN
+Angelo/M/*NKL
+anger/MdS/*NK
+Angie/M/*NK
+angina/MS/*NKN
+angiography//*NKKRF
+angioplasty/S/*NKPLST
+angiosperm/MS/*NKSPM
+Angkor/M/*NKK
+angle/MRDSJG/*NKL
+anglepoise//*NKLPS
+Anglesey/M/*NKLS
+angleworm/SM/*NKLWM
+Anglia/M/*NKL
+Anglican/MS/*NKLKN
+Anglicanism/M/*NKLKNSM
+Anglicise/SnDG/*NKLSS
+Anglicism/S/*NKLSSM
+Anglicize/NnSGD/*NKLSS
+angling/M/*NKLN
+Anglo//*NKL
+Anglo-Boer//*NKLB
+Anglo-French//*NKLFRNX
+Anglo-Indian//*NKLNTN
+Anglo-Irish//*NKLRX
+Anglomania//*NKLMN
+Anglo-Norman//*NKLNMN
+Anglophile/SM/*NKLFL
+Anglophobe/M/*NKLFB
+Anglophobia/M/*NKLFB
+anglophone/MS/*NKLFN
+Anglo-Saxon//*NKLSKSN
+Angola/M/*NKL
+angora/MS/*NKR
+angry/YTP/*NKR
+angst/SM/*NKST
+angstroms//*NKSTRMS
+anguish/GSDM/*NKX
+angular/Y/*NKL
+angularity/MS/*NKLRT
+Anheuser/M/*NHS
+anhydride/M/*NHTRT
+anhydrite/M/*NHTRT
+anhydrous/Y/*NHTRS
+aniline/SM/*NLN
+animadversion/SM/*NMTFXN
+animadvert/SDG/*NMTFT
+animal/qQSM/*NML
+animalcular//*NMLKL
+animalcule/S/*NMLKL
+animalism//*NMLSM
+animality//*NMLT
+animalness//*NMLNS
+animate/YPnGNSDh/*NMT
+animated/A/*NMTT
+animately/I/*NMTL
+animateness/I/*NMTNS
+animates/A/*NMTS
+animating/A/*NMTN
+animation/MAS/*NMXN
+animator/MS/*NMT
+animé//*NM
+animism/MS/*NMSM
+animist/WS/*NMST
+animosity/MS/*NMST
+animus/SM/*NMS
+anion/SMW/*NN
+anionic/S/*NNK
+anise/MS/*NS
+aniseed/MS/*NST
+aniseikonic//*NSKNK
+anisette/MS/*NST
+anisotropy/MSW/*NSTRP
+Anita/M/*NT
+Ankara/M/*NKR
+ankh/MS/*NKH
+ankle/GMDS/*NKL
+anklebone/SM/*NKLBN
+anklet/MS/*NKLT
+Ann/M/*N
+Anna/M/*N
+annal/3MS/*NL
+annalen//*NLN
+annalist//*NLST
+Annapolis/M/*NPLS
+Anne/M/*N
+anneal/SRGD/*NL
+annelid/MS/*NLT
+Annelida//*NLT
+Annette/M/*NT
+annex/nDSG/*NKS
+annexation/M/*NKSXN
+annexe/M/*NKS
+Annie/M/*N
+annihilate/SGNnDV/*NHLT
+annihilation/M/*NHLXN
+annihilator/MS/*NHLT
+anniversary/SM/*NFSR
+annotate/GnNVDS/*NTT
+annotation/M/*NTXN
+annotator/SM/*NTT
+announce/RDLSG/*NNS
+announced/U/*NNST
+annoy/kGDRS/*N
+annoyance/MS/*NYNS
+annual/QYS/*NL
+annuitant/MS/*NTNT
+annuity/MS/*NT
+annul/LDGS/*NL
+annular/YS/*NL
+annuli//*NL
+annulus/M/*NLS
+annum//*NM
+annunciate/nSDGN/*NNXT
+annunciation/M/*NNXXN
+annunciator/MS/*NNXT
+anode/MQSW/*NT
+anodyne/MS/*NTN
+anoint/GLSD/*NNT
+anointer/M/*NNT
+anomalous/PY/*NMLS
+anomaly/MS/*NML
+anomic//*NMK
+anomie//*NM
+anon.//*NN
+anon//*NN
+anonymity/MS/*NNMT
+anonymous/Y/*NNMS
+anopheles/M/*NFLS
+anorak/SM/*NRK
+anorectic/S/*NRKTK
+anorexia/MS/*NRKS
+anorexic/S/*NRKSK
+another/M/*N@
+ans/M/*NS
+Anselm/M/*NSLM
+ANSI/M/*NS
+Anson/M/*NSN
+answer/MrdS7/*NSW
+answerable/U/*NSWRBL
+answered/U/*NSWRT
+ant/WMS/*NT
+antacid/SM/*NTST
+antagonise/SGDR/*NTKNS
+antagonism/MS/*NTKNSM
+antagonist/WS1M/*NTKNST
+antagonize/RSDG/*NTKNS
+Antarctic/M/*NTKTK
+Antarctica/M/*NTKTK
+ante/M/*NT
+anteater/SM/*NTT
+antebellum//*NTBLM
+antecedence/SM/*NTSTNS
+antecedent/YMS/*NTSTNT
+antechamber/SM/*NTXMB
+antedate/DSG/*NTTT
+antediluvian/S/*NTTLFN
+antelope/MS/*NTLP
+antenatal//*NTNTL
+antenna/SM/*NTN
+antennae//*NTN
+anterior/SY/*NTR
+anteroom/SM/*NTRM
+anthem/MSd/*N@M
+anther/MS/*N@
+anthill/S/*N@L
+anthology/QS3M/*N@LK
+Anthony/M/*N@N
+anthraces//*N@RSS
+anthracite/SM/*N@RST
+anthrax/M/*N@RKS
+anthropic/a/*N@RPK
+anthropocentric//*N@RPSNTRK
+anthropogenic//*N@RPKNK
+anthropoid/S/*N@RPT
+anthropology/w13SM/*N@RPLK
+anthropometric/S/*N@RPMTRK
+anthropometry/WM/*N@RPMTR
+anthropomorphic/Y/*N@RPMFK
+anthropomorphising//*N@RPMFSN
+anthropomorphism/MS/*N@RPMFSM
+anthropomorphizing//*N@RPMFSN
+anthropomorphous//*N@RPMFS
+anti/S/*NT
+anti-abortion/3/*NTBXN
+anti-abortionist//*NTBXNST
+anti-aircraft//*NTKRFT
+anti-Americanism//*NTMRKNSM
+anti-apartheid//*NTP@T
+antibacterial/S/*NTBKTRL
+antibiotic/MS/*NTBTK
+antibody/SM/*NTBT
+antic/DMSG/*NTK
+anticancer//*NTKNS
+Antichrist//*NTXRST
+anticipate/VGnyDNvS/*NTSPT
+anticipated/U/*NTSPTT
+anticipation/M/*NTSPXN
+anticlerical/S/*NTKLRKL
+anticlimactic/Y/*NTKLMKTK
+anticlimax/MS/*NTKLMKS
+anticline/SM/*NTKLN
+anticlockwise//*NTKLKWS
+anticoagulant/S/*NTKKLNT
+anticoagulation/M/*NTKKLXN
+anticommunism/MS/*NTKMNSM
+anticommunist/MS/*NTKMNST
+anticompetitive//*NTKMPTTF
+anticyclone/SMW/*NTSKLN
+antidemocratic//*NTTMKRTK
+antidepressant/MS/*NTTPRSNT
+antidisestablishmentarianism/M/*NTTSSTBLXMNTRNSM
+antidote/GMDS/*NTTT
+anti-establishment//*NTSTBLXMNT
+antifascist/SM/*NTFSST
+antiformant//*NTFMNT
+antifreeze/MS/*NTFRS
+antifundamentalist/M/*NTFNTMNTLST
+antigen/WMS/*NTKN
+antigenicity/SM/*NTKNST
+Antigone//*NTKN
+anti-gravity//*NTKRFT
+Antigua/M/*NTK
+anti-hero/M/*NTHR
+anti-heroes//*NTHRS
+antihistamine/SM/*NTHSTMN
+antihistorical//*NTHSTRKL
+anti-hunt/G/*NTHNT
+antiknock/SM/*NTKNK
+Antilles//*NTLS
+antilogarithm/MS/*NTLKR@M
+antilogs//*NTLKS
+antimacassar/SM/*NTMKS
+antimalarial/S/*NTMLRL
+antimatter/SM/*NTMT
+antimicrobial/S/*NTMKRBL
+antimissile/S/*NTMSL
+antimony/M/*NTMN
+antinomian//*NTNMN
+antinomy/M/*NTNM
+anti-nuclear//*NTNKL
+Antioch/M/*NXX
+antioxidant/SM/*NXKSTNT
+antiparticle/MS/*NTPTKL
+antipasti//*NTPST
+antipasto/MS/*NTPST
+antipathy/SMW/*NTP@
+anti-personnel//*NTPSNL
+antiperspirant/MS/*NTPSPRNT
+antiphon/MSo/*NTFN
+antiphonal/S/*NTFNL
+antipodal/S/*NTPTL
+antipode/MS/*NTPT
+antipodean/S/*NTPTN
+antiquarian/SM/*NTKRN
+antiquarianism/MS/*NTKRNSM
+antiquary/SM/*NTKR
+antiquate/GSD/*NTKT
+antiquation/M/*NTKXN
+antique/SGNMD/*NTK
+antiquity/SM/*NTKT
+anti-racism//*NTRSSM
+anti-racist//*NTRSST
+antiredeposition//*NTRTPSXN
+antiresonance/M/*NTRSNNS
+antiresonator//*NTRSNT
+anti-Semitic//*NTSMTK
+anti-Semitism/M/*NTSMTSM
+antisepses//*NTSPSS
+antisepsis/M/*NTSPSS
+antiseptic/YS/*NTSPTK
+antiserum/MS/*NTSRM
+antislavery//*NTSLFR
+antisocial/Y/*NTSXL
+antispasmodic/S/*NTSPSMTK
+antistatic//*NTSTTK
+antisubmarine//*NTSBMRN
+antisymmetry/W/*NTSMTR
+antitank//*NTTNK
+antiterrorism//*NTTRRSM
+antitheses//*NT@SS
+antithesis/M/*NT@SS
+antithetic/Y/*NT@TK
+antithetical//*NT@TKL
+antithyroid//*NT@RT
+antitoxin/SM/*NTTKSN
+antitrust/M/*NTTRST
+antitruster//*NTTRST
+antivenin/SM/*NTFNN
+antiviral/S/*NTFRL
+antivivisectionist/S/*NTFFSKXNST
+antiwar//*NTW
+antler/SM/*NTL
+antlered//*NTLRT
+Antoine/M/*NTN
+Antoinette/M/*NTNT
+Anton/M/*NTN
+Antonio/M/*NTN
+antonym/MS/*NTNM
+antonymous//*NTNMS
+antral//*NTRL
+antsier//*NTS
+antsiest//*NTSST
+Antwerp/M/*NTWP
+anus/MS/*NS
+anvil/MGDS/*NFL
+anxiety/MS/*NKST
+anxious/PY/*NKSS
+anxiousness/S/*NKSSNS
+any//*N
+anybody/MS/*NBT
+anyhow//*NH
+anyone/M/*NYN
+anything//*N@N
+anyway//*NW
+anywhere//*NHR
+aorist//*RST
+aorta/SMW/*T
+apace//*PS
+Apache/MS/*PX
+Apalachicola//*PLXKL
+apart/LP/*PT
+apartheid/M/*P@T
+apathetic/Y/*P@TK
+apathy/SWM/*P@
+apatite/MS/*PTT
+ape/DSGMw1/*P
+aped/A/*PT
+apelike//*PLK
+Apennines//*PNNS
+aper/A/*P
+aperiodic/Y/*PRTK
+aperiodicity/M/*PRTST
+aperitif/S/*PRTF
+aperture/MDS/*PTR
+apex/SM/*PKS
+aphasia/MS/*FX
+aphasic/S/*FSK
+aphelia//*FL
+aphelion/MS/*FLN
+aphid/SM/*FT
+aphonic//*FNK
+aphorism/MS/*FRSM
+aphoristic/Y/*FRSTK
+aphrodisiac/MS/*FRTXK
+Aphrodite/M/*FRTT
+Apia//*P
+apiary/S3M/*PR
+apical/S/*PKL
+apices's//*PSSS
+apiece//*PS
+apish/YP/*PX
+aplenty//*PLNT
+aplomb/SM/*PLM
+apnoea//*PN
+APO//*P
+apocalypse/SWM/*PKLPS
+apocrypha/oM/*PKRF
+apocryphal/P/*PKRFL
+apogee/SM/*PK
+apolar//*PL
+apolitical/Y/*PLTKL
+Apollo/M/*PL
+Apollonian//*PLNN
+apologetic/YU/*PLKTK
+apologetics/M/*PLKTKS
+apologia/MS/*PLK
+apology/SQs3M/*PLK
+apophthegm/MS/*PF@KM
+apoplectic//*PPLKTK
+apoplexy/SM/*PPLKS
+apostasy/SM/*PSTS
+apostate/SQM/*PSTT
+apostle/MS/*PSTL
+apostleship/MS/*PSTLXP
+apostolic//*PSTLK
+apostrophe/QSM/*PSTRF
+apothecary/MS/*P@KR
+apotheoses//*P@SS
+apotheosis/M/*P@SS
+apotheosized//*P@SST
+apotheosizes//*P@SSS
+apotheosizing//*P@SSN
+appal/DSkG/*PL
+Appalachia/M/*PLX
+Appalachian/SM/*PLXN
+appaloosa/S/*PLS
+appanage/M/*PNK
+apparatchik/S/*PRXK
+apparatus/MS/*PRTS
+apparel/DGMS/*PRL
+apparent/PY/*PRNT
+apparently/I/*PRNTL
+apparition/MS/*PRXN
+appeal/kMDGS/*PL
+appealer/M/*PL
+appealing/U/*PLN
+appear/RDGS/*P
+appearance/MEAS/*PRNS
+appeared/EA/*PRT
+appearing/E/*PRN
+appears/EA/*PS
+appease/LRGDS/*PS
+appeased/U/*PST
+appellant/MS/*PLNT
+appellate/VvnN/*PLT
+appellation/M/*PLXN
+appellative/M/*PLTF
+append/RGDS/*PNT
+appendage/MS/*PNTK
+appendectomy/SM/*PNTKTM
+appendices//*PNTSS
+appendicitis/MS/*PNTSTS
+appendix/SM/*PNTKS
+appertain/SGD/*PTN
+appetiser/MS/*PTS
+appetising/UY/*PTSN
+appetite/MSV/*PTT
+appetizer/MS/*PTS
+appetizing/UY/*PTSN
+Appian//*PN
+applaud/RSDG/*PLT
+applause/MS/*PLS
+apple/SYM/*PL
+apple-cart/M/*PLKT
+apple-pie//*PLP
+applet/S/*PLT
+Appleton/M/*PLTN
+appliance/MS/*PLNS
+applicabilities//*PLKBLTS
+applicability/MI/*PLKBLT
+applicable/Y/*PLKBL
+applicant/MS/*PLKNT
+application/MA/*PLKXN
+applicative/Y/*PLKTF
+applicator/MS/*PLKT
+applier/aM/*PL
+appliers//*PLS
+appliqué/GSM/*PLK
+appliquéd//*PLKT
+apply/SANnDaG/*PL
+appoint/LEDSAG/*PNT
+appointee/MS/*PNT
+appointer/SM/*PNT
+appointive//*PNTF
+Appomattox//*PMTKS
+apportion/ALSGD/*PXN
+apposite/xY/*PST
+appositeness//*PSTNS
+apposition/M/*PSXN
+appraisal/MAS/*PRSL
+appraise/AGDS/*PRS
+appraisees//*PRSS
+appraiser/MS/*PRS
+appraising/Y/*PRSN
+appreciable/YI/*PRXBL
+appreciably/I/*PRXBL
+appreciate/SNuyvGnDV/*PRXT
+appreciated/U/*PRXTT
+appreciation/M/*PRXXN
+appreciative/PIY/*PRXTF
+appreciator/MS/*PRXT
+apprehend/DNaGSX/*PRHNT
+apprehender/M/*PRHNT
+apprehensible//*PRHNSBL
+apprehension/aM/*PRHNXN
+apprehensive/PY/*PRHNSF
+apprehensiveness/S/*PRHNSFNS
+apprentice/SGMD/*PRNTS
+apprenticeship/MS/*PRNTSXP
+apprise/SDkG/*PRS
+approach/BRDSG/*PRX
+approachability/M/*PRXBLT
+approachable/U/*PRXBL
+approbate/Nn/*PRBT
+approbation/ESM/*PRBXN
+appropriable//*PRPRBL
+appropriate/GanSDN/*PRPRT
+appropriately/I/*PRPRTL
+appropriateness/ISM/*PRPRTNS
+appropriation/M/*PRPRXN
+appropriative//*PRPRTF
+appropriator/MS/*PRPRT
+approval/ESM/*PRFL
+approve/DERkSG/*PRF
+approved/U/*PRFT
+approx//*PRKS
+approximate/nYSNVGvD/*PRKSMT
+approximation/M/*PRKSMXN
+appurtenance/MS/*PTNNS
+appurtenant/S/*PTNNT
+Apr//*PR
+apricot/SM/*PRKT
+April/MS/*PRL
+apron/MS/*PRN
+aproned//*PRNT
+apropos//*PRPS
+apse/MS/*PS
+apsis/M/*PSS
+apt/YIP/*PT
+apter//*PT
+aptest//*PTST
+aptitude/MS/*PTTT
+aptness/SI/*PTNS
+aqua/MS/*K
+aquaculture/MS/*KKLTR
+aqualung/MS/*KLNK
+aquamarine/MS/*KMRN
+aquanaut/MS/*KNT
+aquaplane/MSDG/*KPLN
+aquaria//*KR
+aquarium/MS/*KRM
+Aquarius/M/*KRS
+aquatic/YS/*KTK
+aquavit/MS/*KFT
+aqueduct/MS/*KTKT
+aqueous/Y/*KS
+aquiculture's//*KKLTRS
+aquifer/MS/*KF
+aquiline//*KLN
+Aquinas//*KNS
+aquittal//*KTL
+Arab/MSW/*RB
+arabesque/SM/*RBSK
+Arabia/M/*RB
+Arabian/MS/*RBN
+Arabic/M/*RBK
+arability/SM/*RBLT
+arable/S/*RBL
+arachnid/SM/*RXNT
+Arachnida//*RXNT
+arachnoid/M/*RXNT
+arachnophobia//*RXNFB
+Arafat/M/*RFT
+araldite//*RLTT
+Aramaic//*RMK
+Arapaho/M/*RPH
+Ararat/M/*RRT
+arbiter/MSNn/*BT
+arbitrage/MDRSG/*BTRK
+arbitrageur/S/*BTRK
+arbitrament/SM/*BTRMNT
+arbitrariness/S/*BTRRNS
+arbitrary/YP/*BTRR
+arbitrate/DVSG/*BTRT
+arbitration/M/*BTRXN
+arbitrator/MS/*BTRT
+arboreal/Y/*BRL
+arboretum/SM/*BRTM
+arborvitae/SM/*BFT
+arbour/MDS/*B
+Arbroath/M/*BR@
+arbutus/MS/*BTS
+arc/DSMG/*K
+arcade/DGSM/*KT
+Arcadia/M/*KT
+Arcadian//*KTN
+arcana/M/*KN
+arcane/Y/*KN
+arcaneness//*KNNS
+arcanum//*KNM
+arch/DSTRPyGYM/*X
+archaeology/13wSM/*XLK
+archaeopteryx//*XPTRKS
+archaic/Y/*XK
+archaicness//*XKNS
+archaise/SDGR/*XS
+archaism/MS/*XSM
+archaist/MS/*XST
+archangel/MS/*XNKL
+archbishop/MS/*XBXP
+archbishopric/MS/*XBXPRK
+archdeacon/MyS/*XTKN
+archdiocesan//*XTSSN
+archdiocese/MS/*XTSS
+archduchess/SM/*XTXS
+archduke/MS/*XTK
+arch-enemy/SM/*XNM
+archery/SM/*XR
+archetypal//*XTPL
+archetype/MSw/*XTP
+archfiend/SM/*XFNT
+archfool//*XFL
+Archibald/M/*XBLT
+Archie/M/*X
+archiepiscopal//*XPSKPL
+Archimedes//*XMTS
+arching/M/*XN
+archipelago/MS/*XPLK
+architect/SM/*XTKT
+architectonic/S/*XTKTNK
+architectonics/M/*XTKTNKS
+architectural//*XTKTRL
+architecture/oMS/*XTKTR
+architrave/MS/*XTRF
+archival//*XFL
+archive/RSD3GM/*XF
+archness/S/*XNS
+archway/SM/*XW
+arclike//*KLK
+ARCO//*K
+arcsine//*KSN
+arctangent//*KTNKNT
+Arctic/M/*KTK
+Arcturus//*KTRS
+Arden/M/*TN
+ardency/M/*TNS
+ardent/Y/*TNT
+ardour/MS/*T
+arduous/PY/*TS
+arduousness/S/*TSNS
+are/B/*R
+area/MS/*R
+areal//*RL
+areawide//*RWT
+arena/MS/*RN
+arenaceous//*RNSS
+aren't//*RNT
+areola//*RL
+areolae//*RL
+areolar//*RL
+Ares//*RS
+arête/MS/*T
+Aretha/M/*R@
+argent/MS/*KNT
+Argentina/M/*KNTN
+Argentine/M/*KNTN
+Argentinian//*KNTNN
+argon/M/*KN
+Argonaut/SM/*KNT
+Argos//*KS
+argosy/SM/*KS
+argot/MS/*KT
+arguable/YIU/*KBL
+arguably/IU/*KBL
+argue/7DSRG/*K
+argued/e/*KT
+argues/e/*KS
+arguing/e/*KN
+argument/MNSn/*KMNT
+argumentation/M/*KMNTXN
+argumentative/PY/*KMNTTF
+argumentativeness/S/*KMNTTFNS
+Argus//*KS
+argy//*K
+argy-bargy/DS/*KBK
+aria/MS/*R
+Ariadne/M/*RTN
+Arian/MS/*RN
+Arianism/M/*RNSM
+arid/YP/*RT
+aridity/MS/*RTT
+Ariel/M/*RL
+Aries/M/*RS
+aright//*RT
+arise/SJG/*RS
+arisen//*RSN
+ariser//*RS
+aristocracy/SM/*RSTKRS
+aristocrat/1SWM/*RSTKRT
+Aristophanes//*RSTFNS
+Aristotelian/M/*RSTTLN
+Aristotle/M/*RSTTL
+arithmetic/SYM/*R@MTK
+arithmetical//*R@MTKL
+arithmetician/MS/*R@MTXN
+arithmetise/GSD/*R@MTS
+arithmetize/SDG/*R@MTS
+Arizona/M/*RSN
+ark/MS/*K
+Arkansan//*KNSN
+Arkansas/M/*KNSS
+Arkwright/M/*KRT
+Arlen/M/*LN
+Arlene/M/*LN
+Arlington/M/*LNTN
+arm/LDSEAG/*M
+armada/MS/*MT
+armadillo/SM/*MTL
+Armageddon/M/*MKTN
+Armagnac//*MKNK
+armature/GSDM/*MTR
+armband/SM/*MBNT
+armchair/SM/*MX
+Armco//*MK
+armed/U/*MT
+Armenia/M/*MN
+Armenian/M/*MNN
+armer/EMS/*M
+armful/MS/*MFL
+armhole/MS/*MHL
+arming/M/*MN
+armistice/MS/*MSTS
+armless//*MLS
+armlet/SM/*MLT
+armload/M/*MLT
+Armonk/M/*MNK
+armorial//*MRL
+armour/SZMRDG/*M
+armour-plate/D/*MPLT
+armoury/SDM/*MR
+armpit/SM/*MPT
+armrest/MS/*MRST
+arm's//*MS
+arms/fc/*MS
+Armstrong/M/*MSTRNK
+army/SM/*M
+Arne/M/*N
+Arnold/M/*NLT
+aroma/1WMS/*RM
+aromatherapist/MS/*RM@RPST
+aromatherapy/S/*RM@RP
+aromatic/PS/*RMTK
+aromaticity/M/*RMTST
+arose//*RS
+around//*RNT
+arousal/SM/*RSL
+arouse/SGD/*RS
+ARPA//*P
+Arpanet/M/*PNT
+arpeggio/MS/*PK
+arr//*R
+arrack/M/*RK
+arraign/DGLS/*RN
+arrange/RLDSG/*RNK
+arrangeable//*RNKBL
+arranged/EKA/*RNKT
+arranges/AEK/*RNKS
+arranging/EKA/*RNKN
+arrant/Y/*RNT
+arras/M/*RS
+array/ESGMD/*R
+arrayer//*RY
+arrearage//*RRK
+arrears//*RS
+arrest/DRGS7k/*RST
+arrested/A/*RSTT
+arrestee/SM/*RST
+arrestor/MS/*RST
+arrests/A/*RSTS
+arrhythmia/MS/*RH@M
+arrhythmic//*RH@MK
+arrhythmical//*RH@MKL
+arrival/SM/*RFL
+arrive/DSG/*RF
+arriver/M/*RF
+arrogance/SM/*RKNS
+arrogant/Y/*RKNT
+arrogate/nSDGN/*RKT
+arrogation/M/*RKXN
+arrow/MDGS/*R
+arrowhead/MS/*RHT
+arrowroot/MS/*RRT
+arroyo/SM/*RY
+arsenal/SM/*SNL
+arsenate/M/*SNT
+arsenic/MS/*SNK
+arsenide/M/*SNT
+arsine/SM/*SN
+arson/3SM/*SN
+arsonist//*SNST
+art/M3jS2pZ6/*T
+Arte//*T
+artefact/SM/*TFKT
+artefactual//*TFKTL
+Artemis//*TMS
+arterial/S/*TRL
+arteriolar//*TRL
+arteriole/MS/*TRL
+arterioscleroses//*TRSKLRSS
+arteriosclerosis/M/*TRSKLRSS
+artery/SMo/*TR
+artesian//*TXN
+artful/P/*TFL
+artfulness/S/*TFLNS
+arthritic/S/*@RTK
+arthritides//*@RTTS
+arthritis/M/*@RTS
+arthrogram/MS/*@RKRM
+arthropod/SM/*@RPT
+Arthropoda//*@RPT
+arthroscope/SW/*@RSKP
+Arthur/M/*@
+Arthurian//*@RN
+artichoke/SM/*TXK
+article/GDMS/*TKL
+articulable/I/*TKLBL
+articulacy/I/*TKLS
+articular//*TKL
+articulate/PSNyYGVDn/*TKLT
+articulated/UE/*TKLTT
+articulately/I/*TKLTL
+articulateness/S/*TKLTNS
+articulation/M/*TKLXN
+articulator/MS/*TKLT
+Artie/M/*T
+artifice/SoMR/*TFS
+artificial/P/*TFXL
+artificiality/MS/*TFXLT
+artillery/mS3M/*TLR
+artiness/S/*TNS
+artisan/MS/*TSN
+artist/yW1/*TST
+artiste/MS/*TST
+artistic/IY/*TSTK
+artistry/SM/*TSTR
+artless/PY/*TLS
+artlessness/S/*TLSNS
+Arturo/M/*TR
+artwork/MS/*TWK
+arty/T3P/*T
+Aruba/M/*RB
+arum/SM/*RM
+Aryan/MS/*RYN
+as//*S
+asap//*SP
+asbestos/MS/*SBSTS
+asbestosis//*SBSTSS
+ascaris//*SKRS
+ascend/RDGSNX/*SNT
+ascendancy/MS/*SNTNS
+ascendant/SY/*SNTNT
+ascended/A/*SNTT
+ascendency//*SNTNS
+ascends/A/*SNTS
+ascension/M/*SNXN
+ascent/MS/*SNT
+ascertain/LDG7S/*STN
+ascetic/MSY/*STK
+asceticism/SM/*STSSM
+ASCII//*S
+ascorbic//*SKBK
+Ascot/M/*SKT
+ascribable//*SKRBBL
+ascribe/DGNXVS/*SKRB
+ascription/M/*SKRPXN
+aseptic/SY/*SPTK
+asexual/Y/*SKSL
+asexuality/SM/*SKSLT
+ash/SDZMG/*X
+ashamed/YU/*XMT
+Ashanti/M/*XNT
+ashen//*XN
+asher//*X
+Asheville/M/*XFL
+Ashford/M/*XFT
+Ashland/M/*XLNT
+ashlar/dMS/*XL
+Ashley/M/*XL
+ashore//*XR
+ashram/MS/*XRM
+Ashton/M/*XTN
+ashtray/MS/*XTR
+ashy/T/*X
+Asia/M/*X
+Asian/MS/*XN
+Asiatech/M/*XTX
+Asiatic/SM/*XTK
+aside/S/*ST
+asimilar//*SML
+Asimov/M/*SMF
+asinine/Y/*SNN
+asininity/SM/*SNNT
+ask/RGDS/*SK
+askance//*SKNS
+asked/U/*SKT
+askew//*SK
+askewness//*SKNS
+aslant//*SLNT
+asleep//*SLP
+asocial/S/*SXL
+asp/WMS/*SP
+asparagus/MS/*SPRKS
+aspartame/S/*SPTM
+aspect/MS/*SPKT
+aspen/MS/*SPN
+asperity/SM/*SPRT
+aspersion/MS/*SPXN
+asphalt/SDMG/*SFLT
+asphalter//*SFLT
+asphodel/SM/*SFTL
+asphyxia/MnS/*SFKS
+asphyxiate/SDG/*SFKST
+asphyxiation/M/*SFKSXN
+aspic/MS/*SPK
+aspidistra/MS/*SPTSTR
+aspirant/SM/*SPRNT
+aspirate/DSG/*SPRT
+aspiration/M/*SPRXN
+aspirator/SM/*SPRT
+aspire/NxnDSG/*SPR
+aspirer/M/*SPR
+aspirin/MS/*SPRN
+asplenium//*SPLNM
+Asquith/M/*SK@
+ass/MS/*S
+Assad/M/*ST
+assail/D7GS/*SL
+assailable/U/*SLBL
+assailant/SM/*SLNT
+Assam/M/*SM
+Assamese//*SMS
+assassin/SMNn/*SSN
+assassinate/DSG/*SSNT
+assassination/M/*SSNXN
+assault/VGSvuMD/*SLT
+assaulter/M/*SLT
+assay/DRSG/*S
+assemblage/MS/*SMBLK
+assemble/RGYESD/*SMBL
+assembled/AU/*SMBLT
+assembles/A/*SMBLS
+assembling/A/*SMBLN
+assembly/ASM/*SMBL
+assemblyman/M/*SMBLMN
+assemblymen/M/*SMBLMN
+assembly's/E/*SMBLS
+assemblywoman/M/*SMBLWMN
+assemblywomen//*SMBLWMN
+assen//*SN
+assent/DGMS/*SNT
+assenter//*SNT
+assert/DxVRGSuv/*ST
+asserted/A/*STT
+assertion/SAM/*SXN
+assertive/U/*STF
+assertiveness/SM/*STFNS
+asserts/A/*STS
+asses/DG/*SS
+assess/7LS/*SS
+assessed/A/*SST
+assesses/A/*SSS
+assessor/SM/*SS
+asset/MS/*ST
+asseverate/GSDNn/*SFRT
+asseveration/M/*SFRXN
+assiduity/MS/*STT
+assiduous/YP/*STS
+assiduousness/S/*STSNS
+assign/7LDRnNGS/*SN
+assignation/M/*SKNXN
+assigned/CKAU/*SN
+assignee/SM/*SKN
+assigning/K/*SKNN
+assignor/SM/*SKN
+assigns/KCA/*SNS
+assimilable//*SMLBL
+assimilate/SGnDNV/*SMLT
+assimilation/3M/*SMLXN
+assimilationist//*SMLXNST
+Assisi/M/*SS
+assist/DGS/*SST
+assistance/SM/*SSTNS
+assistant/SM/*SSTNT
+assistantship/SM/*SSTNTXP
+assisted/U/*SSTT
+assister/M/*SST
+assize/DSMG/*SS
+assn//*SN
+associable//*SXBL
+associate/EGDSNn/*SXT
+associateship//*SXTXP
+association/EM/*SXXN
+associational/Y/*SXXNL
+associative/Y/*SXTF
+associativity/S/*SXTFT
+associator/MS/*SXT
+assonance/MS/*SNNS
+assonant/S/*SNNT
+assort/LDGS/*ST
+assorter/M/*ST
+asst//*ST
+assuage/GDS/*SK
+assuaged/U/*SKT
+assume/BDSNJGXV/*SM
+assumer/M/*SM
+assuming/U/*SMN
+assumption/M/*SMPXN
+assurance/ASM/*SRNS
+assure/RDhiSGk/*SR
+assured/P/*SRT
+assures/A/*SRS
+assuring/AY/*SRN
+Assyria/M/*SR
+Assyrian/M/*SRN
+Assyriology//*SRLK
+astatine/MS/*STTN
+aster/FSEM/*ST
+asterisk/GMSD/*STRSK
+astern//*STN
+asteroid/SM/*STRT
+asteroidal//*STRTL
+asthma/WMS/*S@M
+asthmatic/S/*S@MTK
+astigmatic/S/*STKMTK
+astigmatism/SM/*STKMTSM
+astir//*ST
+Aston/M/*STN
+astonish/DkLGS/*STNX
+Astor/M/*ST
+Astoria/M/*STR
+astound/SDkG/*STNT
+astraddle//*STRTL
+Astrakhan//*STRKHN
+astral/SY/*STRL
+astray//*STR
+astride//*STRT
+astringency/SM/*STRNNS
+astringent/YS/*STRNNT
+astrolabe/MS/*STRLB
+astrologer/MS/*STRLK
+astrology/Sw3M1/*STRLK
+astronaut/WMwS/*STRNT
+astronautic/S/*STRNTK
+astronautics/M/*STRNTKS
+astronomer/MS/*STRNM
+astronomy/W1MwS/*STRNM
+astrophysical//*STRFSKL
+astrophysicist/SM/*STRFSSST
+astrophysics/M/*STRFSKS
+astute/PTY/*STT
+astuteness/S/*STTNS
+asunder//*SNT
+Aswan/M/*SWN
+asylum/SM/*SLM
+asylum-seeker/S/*SLMSK
+asymmetry/wMWS1/*SMTR
+asymptomatic/Y/*SMPTMTK
+asymptote/MW1S/*SMPTT
+asynchronism/M/*SNXRNSM
+asynchronous/Y/*SNXRNS
+asynchrony//*SNXRN
+At//*T
+at/F/*T
+Atari/M/*TR
+atavism/SM/*TFSM
+atavist/WSM/*TFST
+ataxia/SM/*TKS
+ataxic/S/*TKSK
+ATC//*TK
+ate/BS/*T
+atelier/MS/*TL
+atemporal//*TMPRL
+atheism/MS/*@SM
+atheist/M1WS/*@ST
+Athena/M/*@N
+Athenian/SM/*@NN
+Athens//*@NS
+atheroscleroses//*@RSKLRSS
+atherosclerosis/M/*@RSKLRSS
+Atherton/M/*@TN
+athirst//*@ST
+athlete/1MSW/*@LT
+athletic/S/*@LTK
+athleticism/M/*@LTSSM
+athletics/M/*@LTKS
+athwart//*@WT
+atilt//*TLT
+Atkins//*TKNS
+Atkinson/M/*TKNSN
+Atlanta/MW/*TLNT
+atlantes//*TLNTS
+Atlantic/M/*TLNTK
+Atlantis//*TLNTS
+atlas/SM/*TLS
+ATM/M/*TM
+Atman/M/*TMN
+atmosphere/DMSW1/*TMSFR
+atmospheric/S/*TMSFRK
+atoll/MS/*TL
+atom/QsqMS/*TM
+atomic/SY/*TMK
+atomicity/M/*TMST
+atomics/M/*TMKS
+atomistic//*TMSTK
+atonal//*TNL
+atonality/MS/*TNLT
+atone/LSoDG/*TN
+atop//*TP
+atria//*TR
+atrial//*TRL
+atrium/M/*TRM
+atrocious/PY/*TRSS
+atrociousness/S/*TRSSNS
+atrocity/MS/*TRST
+atrophy/WDMSG/*TRF
+atropine/MS/*TRPN
+attach/7RSMLDG/*TX
+attaché/S/*TX
+attached/AU/*TXT
+attaches/A/*TXS
+attack/RSGM7D/*TK
+attain/GADS/*TN

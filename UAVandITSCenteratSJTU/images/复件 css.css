@@ -1,0 +1,270 @@
+﻿@charset "utf-8";
+/* CSS Document */
+html, div, map, dt, isindex, form, header, aside, section, section, article,article2, footer {  
+    display: block;  
+} 
+* {
+	margin: 0;
+padding: 0;
+}
+html, body {
+height: 100%;
+margin: 0;
+padding: 0;
+font-family: "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+font-size: 12px;
+min-width: 980px;
+}
+
+
+h1 {
+	font:14px/30px "微软雅黑";
+	margin-bottom:10px;
+}
+.clear {
+clear: both;
+}
+
+.spacer {
+height: 20px;
+}
+
+a:link, a:visited {
+color: #77BACE;
+text-decoration: none;
+}
+
+a:hover {
+text-decoration: underline;
+}
+#container {
+	width: 74%;
+	margin-left: 13%;
+	margin-right: 13%;
+}
+#container ul li 
+{
+	list-style:disc;
+    line-height:24px;
+    margin-left:20px;
+}
+/* Header */
+.hg {
+background:url(headerbg.jpg) center repeat-x;
+width: 74%;
+margin-left: 13%;
+	margin-right: 13%;
+}
+header#header {
+height: 147px;
+background:url(header.jpg) center no-repeat;
+}
+nav#nav {
+	height:43px;
+	margin-top:-43px;
+}
+nav#nav ul li {
+	float:left;
+	height:43px;
+	padding:0px 20px 0px 20px;
+	line-height:43px;
+	list-style:none;
+	margin-top:-3px;
+	font-size:14px;
+	font-family:微软雅黑;
+}
+nav#nav ul li:hover{
+	float:left;
+	height:40px;
+	padding:-3px 10px 0px 10px;
+	line-height:43px;
+	list-style:none;
+	background:#fdf2d6;
+	border-bottom:3px solid #13873c;
+}
+nav#nav ul a{
+	color:#000;
+}
+nav#nav ul a:hover{
+	color:#000;
+	text-decoration:none;
+}
+nav#nav .search{
+	float:right;
+	padding-top:10px;
+	 margin-right:30px;
+}
+nav#nav .search .inputsearch{
+	border:1px solid #F90;
+	background:#ffffcc;
+	margin-left:10px;
+	padding:5px;
+}
+section#section {
+	width:70.0%;
+	float:left;
+	display:inline;
+}
+section#section_sub {
+	width:70.0%;
+	float:right;
+	display:inline;
+}
+section#section_sub p{
+	font:12px/30px "微软雅黑";
+	text-indent:2em;
+}
+section#section_sub2 {
+	width:93.0%;
+	float:left;
+	display:inline;
+}
+section#section_sub2 p{
+	font:12px/30px "微软雅黑";
+	text-indent:2em;
+}
+section#section h1 {
+	color:#009933;
+	background:#e2edbb;
+	/*border-bottom:1px solid #009933;*/
+	width:100%;
+background:url(btitle.png);
+padding-top:5px;
+}
+section#section ul li a{
+	color:#900;
+}
+section#section .new{
+	float:left;
+	width:50%;
+}
+.newimg{
+	width:270px;
+	height:134px;
+	float:left;
+	padding:10px;
+	margin:5px 20px 20px 0px;
+	background:#f2f2f2;
+	border:1px solid #e1e1e1;
+}
+h1 .more{
+	float:right;
+	font-size:12px;
+	display:block;
+	color:#ccc;
+	margin-right:10px;
+}
+h1 .more a{
+	color:#ccc;
+}
+section#section h1 .sty{
+	font:bold 20px MyKuster;
+	font-family:MyKuster;
+	color:#CCC;
+	letter-spacing:0.05em;
+}
+@font-face {
+	font-family:'MyKuster';
+	src:url('KUNSTLER.ttf');
+}
+section#section time {
+	float:right;
+}
+#flashblock {
+	margin:20px 20px 20px 0px;
+}
+aside#aside {
+	float:right;
+	display:inline;
+	width:28.0%;
+}
+aside#aside_sub {
+	float:left;
+	display:inline;
+	width:23.0%;
+		-webkit-box-shadow:0 5px 20px rgba(0,0,0,0.3);-moz-box-shadow:0 5px 20px 
+rgba(0,0,0,0.3);box-shadow:0 5px 20px rgba(0,0,0,0.3);
+}
+aside#aside_sub ul{
+	padding-left:50px;
+}
+aside#aside_sub ul li{
+	font:16px/30px "微软雅黑";
+	list-style:url(list.jpg) ;
+	margin-left:0px;
+        margin-top:10px;
+        margin-bottom:20px;
+}
+aside#aside_sub ul li:hover{
+	list-style:url(liston.jpg);
+	
+}
+aside#aside_sub ul li a:hover{
+	color:#F90;
+}
+aside#aside_sub h1{
+	margin-top:40px;
+	color:#ffcc00;
+	border-bottom:1px solid #ffcc00;	
+	width:100%;
+}
+aside#aside_sub h1 .sty{
+	font:bold 20px MyKuster;
+	font-family:MyKuster;
+	color:#CCC;
+	letter-spacing:0.05em;
+}
+aside#aside h1{
+	color:#e89117;
+	/*background:#fef5d8;*/
+	border-bottom:1px solid #ccc;	
+	width:90%;
+	padding-left:10%;
+	background:url(title.png);
+}
+aside#aside article 
+{ 
+	margin:20px 0px 20px 0px;
+	background:#fffbf6;
+	width:100%;
+	
+	border:1px solid #ccc;
+border-top:0px solid #ccc;
+padding-bottom:20px;
+}
+aside#aside article2 {
+	margin:-390px 0px 20px 0px;
+	background:#fdf7ef;
+	width:100%;
+	
+	border:1px solid #e89117;
+}
+figure.figure {
+	background:#eee;
+	border:1px solid #CCC;
+	float:left;
+	padding:5px;
+	margin:0px 13px 10px 0px;
+}
+figure.figure figcaption{
+	color:#900;
+}
+.tabs tr 
+{
+    height:30px;
+}
+.tabs tr td
+{
+    height:30px;
+}
+footer {
+	clear:both;
+	background:#fde084;
+	text-align:center;
+	height: 15%;
+	padding-top:15px;
+	padding-bottom:15px;
+	width:74%;
+	margin-left: 13%;
+margin-right: 13%;
+}
