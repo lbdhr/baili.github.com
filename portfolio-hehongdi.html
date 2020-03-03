@@ -99,8 +99,8 @@
                      <h3>联系方式:</h3>
                         <ul class="nav navbar-nav navbar-default">
                             <li>电话：021-34206674</li><br>
-                            <li>Email：hongdihe@gmail.com</li>
-                            <li>地址：闵行校区上海交通大学船建学院A304室</li>
+                            <li>E-Mail：hongdihe@sjtu.edu.cn</li>
+                            <li>地址：上海市闵行区东川路800号木兰船建大楼A304室</li>
                         </ul>
 				</div>
 				
@@ -108,50 +108,85 @@
                     <div class="project-name overflow">
                         <h2 class="bold">何红弟 &nbsp  <sub> 博士</sub></h2>
                         <ul class="nav navbar-nav navbar-default">
-                            <li><a href="#"><i class="fa fa-clock-o"></i>February11,2014</a></li>
+                            <li><a href="#"><i class="fa fa-clock-o"></i><span id="ymd"></span></a></li>
                             <li><a href="#"><i class="fa fa-tag"></i>长聘教轨副副教授，博士生导师</a></li>
                         </ul>
+                        <script>
+                            var date = new Date()<!--获得日期数据-->
+                            var y = date.getFullYear();<!--年-->
+                            var m = date.getMonth()+1;<!--月，这里的月份必须要+1才是当前月份-->
+                            var d = date.getDate(); <!--日，getDay是获得当前星期几（0-6），getDate是获得当前日期-->
+                            document.getElementById("ymd").innerHTML = y+"/"+m+"/"+d;
+                        </script>
                     </div>
-                    <div class="project-info overflow">
+                    <div class="project-info overflow">   <!--class="project-info overflow"-->
                         <h3>简介:</h3>
-                        <p>上海市“浦江人才计划”获得者，主持国家自然科学基金面上项目、青年项目、上海市科委人才项目、上海市教委创新项目等7项，参与国家自然科学基金项目、交通运输部科研基金项目等十多项，目前发表期刊论文70多篇，被SCI检索40多篇，论文在 Google Scholar 上被引 500 余次，曾获香港职业健康安全署杰出研究奖，入选上海市浦江人才计划称号。</p>
+                        <p>上海市“浦江人才计划”获得者，主持国家自然科学基金面上项目、青年项目、上海市科委人才项目、上海市教委创新项目等7项，
+                            参与国家自然科学基金项目、交通运输部科研基金项目等十多项，目前发表期刊论文80多篇，被SCI检索50多篇，论文在 Google Scholar 上被引 500 余次，
+                            曾获香港职业健康安全署杰出研究奖，入选上海市浦江人才计划称号，并获得上海市教学成果二等奖等。</p>
+                    <div>
+                        <h3>招生计划：</h3>
+                        <li>欢迎有志于学术研究的同学咨询，个人简历可发送hongdihe@sjtu.edu.cn;</li>
+                        <li>博士后：每年1名，交通与环境工程、智能交通、交通仿真等相关方向;</li>
+                        <li>研究生：每年1名博士生，1-2名硕士生，要求有一定的数理基础和计算机编程经验，专业包括但不限于：交通、环境、计算机、数学、物理等相关专业。</li>
+                    </div>
+                    <div>
+                        <h3>教育背景：</h3>
                         <ul class="elements">
-                       
-                            <li><i class="fa fa-graduation-cap"></i>2005/09–2010/06，香港城市大学，博士</li>
-                            <li><i class="fa fa-graduation-cap"></i>2003/09–2006/06，上海大学上海市应用数学与力学研究所，硕士</li>
-							<li><i class="fa fa-graduation-cap"></i>1999/09–2003/06，西北工业大学应用数学系，信息与计算科学，学士</li>
+                            <li><i class="fa fa-graduation-cap"></i>2005.09–2010.07，香港城市大学建筑学与土木工程系，博士</li>
+                            <li><i class="fa fa-graduation-cap"></i>2003.09–2006.07，上海大学上海市应用数学与力学研究所，硕士</li>
+							<li><i class="fa fa-graduation-cap"></i>1999.09–2003.07，西北工业大学应用数学系，信息与计算科学，学士</li>
                         </ul>
+                    </div>
                     </div>
 					<div class="skills overflow">
                         <h3>工作经历:</h3>
                         <ul class="elements">
-                            <li><i class="fa fa-university"></i>2018.12-至今      上海交通大学船建学院国际航运系 长聘教轨副教授</li>
-                            <li><i class="fa fa-university"></i>2010.10-2018.11   上海海事大学物流研究中心 讲师 副教授</li>
-                            <li><i class="fa fa-university"></i>2017.09-2018.11   康奈尔大学 访问学者</li>
-							<li><i class="fa fa-university"></i>2016.06-2016.9    香港城市大学 访问学者</li>
+                            <li><i class="fa fa-university"></i>2019.01-至今        上海交通大学船建学院 交通运输工程系 长聘教轨副教授</li>
+                            <li><i class="fa fa-university"></i>2010.10-2018.12    上海海事大学物流研究中心 讲师 副教授</li>
+                            <li><i class="fa fa-university"></i>2017.09-2018.11    美国康奈尔大学 访问学者</li>
+							<li><i class="fa fa-university"></i>2016.07-2016.09    香港城市大学 Research Fellow</li>
 						
                         </ul>
                     </div>
 					<div class="project-info overflow">
                         <h3>近期承担科研项目:</h3>
                         <ul class="elements">
-                            <li><i class="fa fa-cog"></i>国家自然科学基金面上项目: 交通拥堵产生的超细颗粒物的动态分布及控制策略研究(11672176), 2017-2020；</li>
-                            <li><i class="fa fa-cog"></i>国家自然科学基金青年项目:基于颗粒物减排的城市道路交叉口交通流的动力学建模与优化(11302125), 2014-2016；</li>
-                            <li><i class="fa fa-cog"></i>上海市浦江人才计划项目:上海城市车辆流的动态优化与可吸入细颗粒物的污染控制(12PJ1404000), 2012.10-2014； </li>
-							<li><i class="fa fa-cog"></i>上海市科委 工程中心能力提升子项目：港口细颗粒物排放特征及对区域空气质量的影响 (14DZ2280200), 2014-2016；；</li>
+                            <li><i class="fa fa-cog"></i>国家自然科学基金面上项目，交通拥堵产生的超细颗粒物的动态分布及控制策略研究，2017-2020，项目负责人</li>
+                            <li><i class="fa fa-cog"></i>国家自然科学基金青年项目，基于颗粒物减排的城市道路交叉口交通流的动力学建模与优化，2014-2016，项目负责人</li>
+                            <li><i class="fa fa-cog"></i>上海市科委项目，港口细颗粒物排放特征及对区域空气质量的影响，2014-2016，项目负责人</li>
+                            <li><i class="fa fa-cog"></i>上海市浦江人才计划项目，上海城市车辆流的动态优化与可吸入细颗粒物的污染控制，2012-2014，项目负责人</li>
+                            <li><i class="fa fa-cog"></i>中国科技部国家重点研发计划子课题，基于无人机和大载荷气艇的大气垂直结构探测技术，2016-2020，项目参与人</li>
+                            <li><i class="fa fa-cog"></i>国家社会科学基金重大项目，城市交通政策和设施建设对大气环境影响的评价研究，2016-2020，项目参与人</li>
+                            <li><i class="fa fa-cog"></i>上海市环境保护局，上海市智能环保综合决策与大数据应用研究，2018-2019，项目参与人</li>
+                            <li><i class="fa fa-cog"></i>中国交通运输部，基于船舶运动轨迹的船舶能耗和碳排放统计算法研究，2014-2016，项目参与人</li>
+                            <li><i class="fa fa-cog"></i>上海市交通运输与港口管理局，港口综合发展指数，2012，项目参与人</li>
 						</ul>
+                    </div>
+                    <div>
+                        <h3>教学工作：</h3>
+                        <ul  class="elements">
+                        <li><i class="fa fa-graduation-cap"></i>本科生课程 《运筹学》</li>
+                        <li><i class="fa fa-graduation-cap"></i>本科生课程 《智能交通系统》</li>
+                        <li><i class="fa fa-graduation-cap"></i>研究生课程 《交通环境工程》</li>
+                        <li><i class="fa fa-graduation-cap"></i>研究生课程《交通中的大数据分析与建模》</li>
+                        </ul>
                     </div>
                     <div class="project-info overflow">
                         <h3>近期发表论文:</h3>
                         <ul class="elements"><h6>
-                            <li><i class="fa fa-file-o"></i>He, H.D.(何红弟), Lu, W.Z., Decomposition of Pollution Contributors to Urban Ozone Levels Concerning Regional and Local Scales. Building and Environment</li>
-                            <li><i class="fa fa-file-o"></i>He, H.D.(何红弟), Lu, W.Z., Urban Aerosol Particulates on Hong Kong roadsides: Size Distribution and Concentration Levels with Time. Stochastic Environmental Research and Risk Assessment</li>
-                            <li><i class="fa fa-file-o"></i>He, H.D.(何红弟), Lu, W.Z., Dong, L.Y., Jam formation of traffic flow in harbor tunnel. Communications in Theoretical Physics</li>
-						    <li><i class="fa fa-file-o"></i>He, H.D.(何红弟), Lu, W.Z., Dong, L.Y., An Improved Cellular Automaton Model Considering Effect of Traffic Lights and Driving Behavior. Chinese Physics B</li>
-							<li><i class="fa fa-file-o"></i>He, H.D.(何红弟), Lu, W.Z., Xue, Y., Prediction of PM10 concentrations at urban traffic intersections using semi-empiricalbox modelling with instantaneous velocity and acceleration. Atmospheric Environment</li>
-						    <li><i class="fa fa-file-o"></i>He, H.D.(何红弟), Lu, W.Z., Xue, Y., Dong, L.Y., Dynamic characteristics and simulation of traffic flow with slope. Chinese Physics B</li>
-							<li><i class="fa fa-file-o"></i>Lu, W.Z., He, H.D.(何红弟), Andrew Y T Leung, Assessing air quality in Hong Kong: A proposed, revised air pollution index (API). Building and Environment</li>
-							<li><i class="fa fa-file-o"></i>Lu, W.Z., He, H.D.(何红弟), Dong, L.Y., Performance assessment of air quality monitoring networks using principal component analysis and cluster analysis. Building and Environment</li>
+                            <li><i class="fa fa-file-o"></i><b>He, H.D*.,</b> Lu, W.Z. Comparison of three prediction strategies within PM2.5 and PM10 monitoring networks. Atmospheric Pollution Research. 2020, Online.</li>
+                            <li><i class="fa fa-file-o"></i>Lu, K.F., <b>He, H.D.,</b> Wang, H.W., Li, X.B., Peng, Z.R. Characterizing temporal and vertical distribution patterns of traffic-emitted pollutants near an elevated expressway in urban residential areas. Building Environment 2020, 106678.</li>
+                            <li><i class="fa fa-file-o"></i>Cao, R., Li, B., Wang, H.W., Tao, S.K., Peng, Z.R*., <b>He, H.D*.</b> Vertical and horizontal profiles of particulate matter and BC near elevated highway based on unmanned aerial. Sustainability 2020, 12:1204.</li>
+						    <li><i class="fa fa-file-o"></i>Wang, H.W., Li, X.B., Wang, D.S., Zhao, J., He, <b>H.D*.,</b> Peng, Z.R. Regional prediction of ground-level ozone using a hybrid sequence-to-sequence deep learning approach. Journal of Cleaner Production, 2020, 253:19841.</li>
+							<li><i class="fa fa-file-o"></i>Li, X.B., Peng, Z.R., Lu, Q.C., Wang, D.F., Hu, X.M., Wang, D.S., Li, B., Fu, Q.Y., Xiu, G.L. He, <b>H.D*.</b> Evaluation of unmanned aerial system in measuring lower tropospheric ozone and fine aerosol particles using portable monitors. Atmospheric Environment 2020, 117134.</li>
+						    <li><i class="fa fa-file-o"></i>Chen, B.L., Xue, Y., Wang, X., Chen, D., <b>He, H.D.</b> A Lattice Hydrodynamic Model of Bidirectional Pedestrian Traffic Considering the Cumulative Effect of Delay Time. IEEE Access 2020, 7:168710-168719.</li>
+							<li><i class="fa fa-file-o"></i>Wang, X., Xue, Y., Cen, B.L., Zhang, P., <b>He, H.D.</b> Study on pollutant emissions of mixed traffic flow in cellular automaton. Physica A 2020, 537:122686.</li>
+                            <li><i class="fa fa-file-o"></i>Chen, Q., Wang, D.S., Li, X.B., Li, B., Song, R.F., <b>He, H.D*.,</b> Peng, Z.R. Vertical Characteristics of Winter Ozone Distribution within the Boundary Layer in Shanghai Based on Hexacopter Unmanned Aerial Vehicle Platform. Sustainability 2019, 11:7026.</li>
+                            <li><i class="fa fa-file-o"></i>Xue, Y., Zhang, Y.C., Fan, D.L., Zhang, P., <b>He, H.D.</b> An extended macroscopic model for traffic flow on curved road and its numerical simulation. Nonlinear Dynamic, 2019, 95: 3295-3307.</li>
+						    <li><i class="fa fa-file-o"></i>Pan, W., <b>He, H.D.,</b> Xue, Y., Lu, W.Z. An environmental indicator: particulate characteristics on pedestrian pathway along integrated urban thoroughfare in Metropolis. Stochastic Environmental Research and Risk Assessment 2018, 32: 2527-2536.</li>
+							<li><i class="fa fa-file-o"></i>Pan, W., Xue, Y., <b>He, H.D.,</b> Lu, W.Z. Impacts of traffic congestion on fuel rate, dissipation and particle emission in a single lane based on Nasch Model. Physica A 2018, 503: 154-162.</li>
+							<li><i class="fa fa-file-o"></i><b>He, H.D*.,</b> Li, M., Wang, W.L., Wang, Z.Y., Xue, Y. Prediction of PM2.5 Concentration based on the Similarity in Air Quality Monitoring Network. Building Environment 2018, 137:11-17.</li>
 							</h6>
 						</ul>
 						<br>
@@ -167,18 +202,18 @@
 					 <div class="skills overflow">
                         <h3>研究方向:</h3>
                         <ul class="elements">
-                            <li><i class="fa fa-angle-right"></i>低碳物流与绿色物流</li>
-							<li><i class="fa fa-angle-right"></i>交通流与交通污染</li>
-							<li><i class="fa fa-angle-right"></i>交通环境工程</li>
+                            <li><i class="fa fa-angle-right"></i>交通、环境与健康研究</li>
+							<li><i class="fa fa-angle-right"></i>智能交通系统与大数据应用</li>
+							<li><i class="fa fa-angle-right"></i>无人机在交通管理及环境治理中的应用研究</li>
                         </ul>
                     </div>
                     <div class="client overflow">
                         <h3>联系方式:</h3>
-                        <ul class="nav navbar-nav navbar-default">
-                            <li><a href="#"><i class="fa fa-bolt"></i>上海交通大学船舶海洋与建筑工程学院国际航运系</a></li>
-							<li>固定电话：021-34206674</li><br>
-                            <li><i class="fa fa-bolt"></i>电子邮件-Email：hongdihe@gmail.com</li>
-                            <li>通讯地址：闵行校区上海交通大学船建学院A304室</li>
+                        <ul class="elements"><!--class="nav navbar-nav navbar-default"-->
+                            <li><i class="fa fa-bolt"></i>上海交通大学船舶海洋与建筑工程学院交通运输工程系</li>
+							<li><i class="fa fa-bolt"></i>固定电话：021-34206674</li>
+                            <li><i class="fa fa-bolt"></i>E-Mail：hongdihe@sjtu.edu.cn</li>
+                            <li><i class="fa fa-bolt"></i>通讯地址：上海市闵行区东川路800号木兰船建大楼A304室</li>
 
 
 </a></li>
@@ -204,7 +239,7 @@
                     <div class="contact-info bottom">
                         <h2>联系方式</h2>
                         <address>
-                        E-mail: <a href="mailto:zrpeng@sjtu.edu.cn">zrpeng@sjtu.edu.cn</a> <br> 
+                        E-Mail: <a href="mailto:zrpeng@sjtu.edu.cn">zrpeng@sjtu.edu.cn</a> <br> 
                         Phone: 021-34206674 <br> 
                         </address>
 
@@ -213,7 +248,7 @@
                         <address>
                         上海市闵行区 东川路800号 <br> 
 						上海交通大学 船舶海洋与建筑工程学院<br>
-						木兰船建大楼 A304<br>
+						木兰船建大楼A304<br>
 						邮编：200240<br>
                         </address>
                     </div>
