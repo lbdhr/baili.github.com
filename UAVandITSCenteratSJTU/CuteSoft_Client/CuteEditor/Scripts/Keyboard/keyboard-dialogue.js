@@ -1,1 +1,0 @@
-var OxObf92=["value","keyboard_area"];function afficher(Ox27b){document.getElementById(OxObf92[1])[OxObf92[0]]=Ox27b;} ;function rechercher(){return document.getElementById(OxObf92[1])[OxObf92[0]];} ;
