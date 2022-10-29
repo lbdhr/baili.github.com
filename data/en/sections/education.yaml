@@ -1,0 +1,63 @@
+# section information
+section:
+  name: Education
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+- name: Ph.D in Traffic Information Engineering (Civil Engineering)
+  icon: fa-graduation-cap
+  timeframe: 2015-2022
+  institution:
+    name: Shanghai Jiao Tong University
+    url: "https://www.sjtu.edu.cn"
+  publications: #(optional)
+  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    url: "#"
+  - title: Fusce eu augue ut odio porttitor pulvinar.
+    url: "#"
+  extracurricularActivities: #(optional)
+  - In vitae facilisis est, eget porta sem.
+  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
+  - Duis sed massa feugiat, ornare justo et, aliquam est.
+  - Pellentesque ut fringilla magna.
+- name: B.Sc. in Automation
+  icon: fa-university
+  timeframe: 2011-2015
+  institution:
+    name: Southwest Jiao Tong University
+    url: "https://www.swjtu.edu.cn"
+  takenCourses: #(optional)
+    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+    showGrades: true
+    collapseAfter: 3
+    courses:
+    - name: Advanced Language Program Design
+      achieved: 90
+      outOf: 100
+    - name: Data Structures and Algorithm
+      achieved: 94
+      outOf: 100
+    - name: Computer Network
+      achieved: 93
+      outOf: 100
+    - name: Digital Electronic Technique
+      achieved: 94
+      outOf: 100
+    - name: Analog Electronic Technique
+      achieved: 90
+      outOf: 100
+  grade: #(optional)
+    scale: GPA
+    achieved: 3.6
+    outOf: 4.0
+  extracurricularActivities: #(optional)
+  - In vitae facilisis est, eget porta sem.
+  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
+  - Duis sed massa feugiat, ornare justo et, aliquam est.
+  - Pellentesque ut fringilla magna.
