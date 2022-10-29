@@ -36,3 +36,8 @@ params:
   # Currently, you can just hide it from the footer.
   newsletter:
     enable: true
+
+  darkMode:
+    enable: true
+    provider: darkreader
+    default: system
