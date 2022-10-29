@@ -8,24 +8,45 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Software Engineer
+designation: Ph. D. Candidate
 # your company information
 company:
-  name: Example Co.
-  url: "https://www.example.com"
+  name: Shanghai Jiao Tong University / Center for ITS and UAV Applications Research
+  url: "https://uav.sjtu.edu.cn"
 
 # your resume. this file path should be relative to you "static" directory
 resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'I am a passionate software engineer with x years of working experience. I built OSS tools for [Kubernetes](https://kubernetes.io/) using GO. My tools help people to deploy their workloads in Kubernetes. Sometimes, I work on some fun projects such as writing a theme, etc.'
+summary: 'I am a strong self-driven, self-motivated and self-disciplined person with a strong self-learning ability. 
+I have assisted in grants proposal writing and completed more than 10 national projects, published 4 SCI papers as the first author, 14 SCI papers as the co-author in high-level journals and disclosed/authorized 7 national patents. '
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "bai_li@sjtu.edu.cn"
+
 - name: Github
   icon: "fab fa-github"
-  url: "https://www.github.com/example"
+  url: "https://www.github.com/lbdhr"
+
+- name: Stackoverflow
+  icon: "fab fa-stack-overflow"
+  url: "https://stackoverflow.com/users/4745740/fitz"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/bai-li-55b385182/"
+
+- name: Twitter
+  icon: "fab fa-twitter"
+  url: "https://twitter.com/BLi80405310"
+
+- name: Facebook
+  icon: "fab fa-facebook"
+  url: "https://www.facebook.com/bai.li.921677"
 
 # your soft skills
 # give the percentage between 50 to 100 with 5 intervals.
@@ -37,3 +58,6 @@ softSkills:
 - name: Team Work
   percentage: 90
   color: yellow
+- name: Hard Working
+  percentage: 95
+  color: orange
