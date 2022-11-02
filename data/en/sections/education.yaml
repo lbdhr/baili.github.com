@@ -17,15 +17,16 @@ degrees:
     name: Shanghai Jiao Tong University
     url: "https://www.sjtu.edu.cn"
   publications: #(optional)
-  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    url: "#"
-  - title: Fusce eu augue ut odio porttitor pulvinar.
-    url: "#"
+  - title: Google Scholar
+    url: "https://scholar.google.com/citations?user=82HMzoIAAAAJ"
+  - title: ResearchGate
+    url: "https://www.researchgate.net/profile/Bai-Li-6"
   extracurricularActivities: #(optional)
-  - In vitae facilisis est, eget porta sem.
-  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
-  - Duis sed massa feugiat, ornare justo et, aliquam est.
-  - Pellentesque ut fringilla magna.
+  - 1st Prize in the 1st "Energy, Intelligence, and Future" National Innovation and Entrepreneurship Competition for College Students - 2018
+  - 4th Prize in China's (Xiaoguwei) "Internet + Transportation" Innovation and Entrepreneurship Competition - 2018
+  - 2nd Prize in National Mathematical Modeling Contest for Graduate Students in China - 2017 & 2018
+  - 3rd Prize in China's (Xiaoguwei) "Internet + Transportation" Innovation and Entrepreneurship Competition - 2017
+  - Seeds Award, Shanghai Open Data Applications Competition - 2017
 - name: B.Sc. in Automation
   icon: fa-university
   timeframe: 2011-2015
@@ -57,7 +58,9 @@ degrees:
     achieved: 3.6
     outOf: 4.0
   extracurricularActivities: #(optional)
-  - In vitae facilisis est, eget porta sem.
-  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
-  - Duis sed massa feugiat, ornare justo et, aliquam est.
-  - Pellentesque ut fringilla magna.
+  - 1st Prize in National College Competition on Internet of Things, Southwest Region - 2014
+  - 3rd Prize in National University Student Social Practice and Science Contest on Energy Saving & Emission Reduction - 2014
+  - 3rd Prize in "Freescale Cup" - National Undergraduate Smart Car Contest, Sichuan Region - 2014
+  - 3rd Prize in "TI Cup" - National Undergraduate Electronics Design Contest, Sichuan Region - 2013 & 2014
+  - National Scholarship - 2014
+  - Tang Li-Xin's Scholarship - 2014-2020
