@@ -8,11 +8,17 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Ph. D. Candidate
+designation: Postdoctoral Researcher
 # your company information
 company:
-  name: Shanghai Jiao Tong University / Center for ITS and UAV Applications Research
-  url: "https://uav.sjtu.edu.cn"
+  name: University of South Florida / Center for Urban Transportation Research
+  url: "https://www.cutr.usf.edu/advancedairmobility/name/bai-li-ph-d/"
+# # your designation
+# designation: Ph. D. Candidate
+# # your company information
+# company:
+#   name: Shanghai Jiao Tong University / Center for ITS and UAV Applications Research
+#   url: "https://uav.sjtu.edu.cn"
 
 # your resume. this file path should be relative to you "static" directory
 resume: "files/resume.pdf"
