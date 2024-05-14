@@ -14,8 +14,8 @@ degrees:
   icon: fa-graduation-cap
   timeframe: 2015-2022
   institution:
-    name: Shanghai Jiao Tong University
-    url: "https://www.sjtu.edu.cn"
+    name: Shanghai Jiao Tong University / Center for ITS and UAV Applications Research
+    url: "https://uav.sjtu.edu.cn"
   publications: #(optional)
   - title: Google Scholar
     url: "https://scholar.google.com/citations?user=82HMzoIAAAAJ"
